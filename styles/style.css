@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    display: flex;
+    font-family: system-ui, sans-serif;
+    height: 100vh;
+}
+
+nav {
+    width: 250px;
+    background: #f8f9fa;
+    padding: 20px;
+}
+
+nav button {
+    display: block;
+    width: 100%; padding: 10px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    text-align: left;
+}
+main {
+    flex-grow: 1;
+    padding: 40px;
+    overflow-y: auto;
+    max-width: 800px;
+}
+
+#lesson-container code { background: #eee; padding: 2px 4px; border-radius: 4px; }
+#lesson-container pre { background: #222; color: #fff; padding: 15px; border-radius: 8px; overflow-x: auto; }
