@@ -4,7 +4,7 @@ async function loadLesson(filePath) {
     try {
         container.innerHTML = '<p>Aan het laden...</p>';
         const response = await fetch(filePath);
-
+    
         if (!response.ok) {
             throw new Error(`Lesson not found: ${response.statusText}`);
         } else {

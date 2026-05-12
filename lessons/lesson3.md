@@ -1,10 +1,10 @@
 # Gebruik Linux
 
-Tekst aan het begin
+Nu je uw computer opnieuw hebt opgestart, bent u in Linux Mint. Hierzo ziet u de quick start guide, waarover het volgende hoofdstuk zal gaan.
 
 ## Een snelle tour
 
-Tekst
+
 
 ## Pas uw voorkeuren aan in de instellingen
 
