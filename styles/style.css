@@ -1,3 +1,7 @@
+* {
+    font-size: 1.5rem;
+}
+
 body {
     margin: 0;
     display: flex;
@@ -6,7 +10,7 @@ body {
 }
 
 nav {
-    width: 250px;
+    min-width: 20vw;
     background: #f8f9fa;
     padding: 20px;
 }
@@ -20,9 +24,8 @@ nav button {
 }
 main {
     flex-grow: 1;
-    padding: 40px;
     overflow-y: auto;
-    max-width: 800px;
+    padding: 0 10vw 0 10vw;
 }
 
 #lesson-container code { background: #eee; padding: 2px 4px; border-radius: 4px; }
