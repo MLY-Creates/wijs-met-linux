@@ -2,7 +2,7 @@
 
 Nu u uw computer opnieuw hebt opgestart, bent u in Linux Mint. Hier ziet u de quick start guide, waarover het volgende hoofdstuk zal gaan.
 
-## De welkomstour doorlopen
+## De welkomstour
 
 Als u Linux mint voor de eerste keer opstart, dan ziet u een welkomsgids. Laten we die samen doorlopen door op "vooruit met die geit!" te klikken.
 
@@ -36,7 +36,7 @@ Hier kunt u apps downloaden en beheren, meer hierover in het hoofdstuk "download
 
 Hierin kunt u een firewall inschakelen, waarbij je internetverkeer van en naar uw computer kan inzien en beheren. Dit is voor het overgrote deel van de gebruikers niet van toepassing.
 
-## Pas uw voorkeuren aan in de instellingen
+## Pas uw voorkeuren aan
 
 Om uw computer volledig eigen te laten voelen, of om het gebruik van uw computer eenvoudiger te maken, kunt u uw instellingen aanpasssen in het instellingenmenu. Dit kunt u doen door linksonder op het startmenu te klikken, en dan via de zoekbalk naar systeeminstellingen te zoeken. Klik daarna op systeeminstellingen om dit te openen. Hieronder is een lijst met vaak aangepaste instellingen:
 
@@ -54,14 +54,19 @@ Als u een touchpad gebruikt, zoals op een laptop, dan klikt u op het kopje "Touc
 
 Is de tekst moeilijk te lezen, of wilt u extra kunnen inzoomen? Scroll of zoek naar toegankelijkheid, en klik daar op. Vanuit daar kunt u hoog contrast aanzetten om menu's beter leesbaar te maken. Kun't u grote letters aanzetten om tekst beter leesbaar te maken, en kunt u het vergrootglas aanzetten. Om het vergrootglas aan te zetten, klikt u op "vergrotingsfactor inschakelen", als u dan de alt knop op uw toetsenbord ingedrukt houdt en naar boven of onder scrolt, dan zoomt het scherm in en uit.
 
+
+## Gebruik het office pakket
+
+Tekst
+
+## Ga op het internet
+
+Tekst
+
 ## Download nieuwe apps in de app store
 
 Tekst
 
 ## Download nieuwe apps van het internet
-
-Tekst
-
-## Leuke dingen om met Linux te doen
 
 Tekst

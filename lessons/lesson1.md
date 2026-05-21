@@ -2,11 +2,12 @@
 
 Tekst aan het begin
 
-## Een kort Voorwoord
+
+## Het Linux verhaal
 
 Tekst
 
-## Het Linux verhaal
+## Waarom Linux?
 
 Tekst
 
@@ -18,6 +19,11 @@ Tekst
 
 Tekst
 
-## wanneer je misschien geen Linux wil
+## Versies van Linux
 
-Tekst
+Hier kiezen we voor Linux mint
+
+* Linux Mint is makkelijk in gebruik
+* Linux Mint is makkelijk om te installeren
+* Linux mint is snel en stabiel
+* Linux mint is veilig
