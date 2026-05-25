@@ -28,11 +28,15 @@ Als u rechtsboven in uw browser een download bezig ziet, is het gelukt! Wacht to
 
 ## "Brand" Linux Mint op de usb-stick
 
-Instructies voor download van Balena Etcher
+Om Linux op uw computer te zetten, moet u eerst het net gedownloadde bestand branden op een usb-stick. Dit kunt u doen via software dat gemaakt is om bestanden op een usb-stick te branden, net zoals u dat vroeger met DVD's kon doen.
 
-Instructies voor ISO op usb-stick zetten
+Om dat te doen heeft u een programma nodig dat een usb-stick kan branden. Daar zijn meerdere opties voor, waaronder BalenaEtcher, dat wij gebruiken voor het gebruiksgemak.
 
-## Herstart je computer voor de installatie
+U kunt via uw webbrowser googlen naar "balena etcher", of op de volgende link klikken om naar de website te gaan: https://etcher.balena.io/
+
+
+
+## Herstart uw computer voor de installatie
 
 Mogelijk interactief deel over hoe je in de BIOS komt?
 
