@@ -7,7 +7,7 @@ Tekst aan het begin
 
 Tekst
 
-## Waarom Linux?
+## Waarom Linux op uw computer?
 
 Tekst
 
