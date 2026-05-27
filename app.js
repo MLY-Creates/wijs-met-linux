@@ -13,9 +13,10 @@ async function loadLesson(filePath) {
         }
     } catch (error) {
         console.error("Error loading lesson:", error);
-        container.innerHTML = `
+        container.innerHTML =
+            `
             <h2>Er ging iets fout</h2>
-            <p>Tux de pinguin heeft lang en ver gezocht, maar niks gevonden.</p>
-        `;
+            <p>Tux de pinguïn heeft lang en ver gezocht, maar niks gevonden. Weet u zeker dat u met het internet verbonden bent?</p>
+            `;
     }
 }
