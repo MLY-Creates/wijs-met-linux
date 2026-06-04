@@ -19,7 +19,6 @@ Met Linux kunt u alles wat u met Windows ook kan, zoals:
 - Op het internet gaan, en alle websites bezoeken.
 - De LibreOffice suite altijd gratis gebruiken, hiermee kunt u documenten bewerken, spreadsheets maken en powerpoints maken net zoals in Microsoft Office.
 - Spellen spelen, ook Linux heeft spellen zoals Solitaire on Mohjang.
-- 
 
 ## Linux geeft uw computer een nieuw leven
 
@@ -27,9 +26,14 @@ Omdat Linux van gebruikers, voor gebruikers is, kunt u het een stuk mzakkelijker
 
 ## Versies van Linux
 
-Hier kiezen we voor Linux mint
+Er is niet een versie van Linux, maar het zijn meerdere versies van Linux waaruit je kan kiezen. Elk gemaakt voor een ander doel.
 
-* Linux Mint is makkelijk in gebruik
+Sommige versies zijn heel moeilijk te gebruiken, anderen heel makkelijk. Om te kiezen welke het beste bij jouw past, kan heel moeilijk zijn.
+
+Gelukkig zijn er wel wat populaire versies van Linux die vaak gekozen worden. Bijvoorbeeld Linux Mint, dat een excellente keuze is omdat:
+
+* Linux Mint is makkelijk in gebruik, en lijkt heel erg op Windows
 * Linux Mint is makkelijk om te installeren
-* Linux mint is snel en stabiel
-* Linux mint is veilig
+* Linux Mint is snel, ook op oude computers
+* Linux Mint is stabiel, en crasht zelden
+* Linux mint is veilig, er zijn weinig virussen voor Linux
