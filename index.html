@@ -11,10 +11,48 @@
 
 <nav>
     <h2>Wijs in Linux</h2>
-    <button onclick="loadLesson('lessons/lesson1.md')">Begrijp linux</button>
-    <button onclick="loadLesson('lessons/lesson2.md')">Installeer zelf Linux</button>
-    <button onclick="loadLesson('lessons/lesson3.md')">Gebruik Linux</button>
-    <button onclick="loadLesson('lessons/lesson4.md')">Veelgestelde vragen</button>
+    <div id="nav-links">
+        <details>
+            <summary>Begrijp Linux</summary>
+            <ul>
+                <li><a href="#" onclick="loadLesson('lessons/chapter1/lesson0.md', event)">Begrijp Linux</a></li>
+                <li><a href="#" onclick="loadLesson('lessons/chapter1/lesson1.md', event)">Het Linux verhaal</a></li>
+                <li><a href="#" onclick="loadLesson('lessons/chapter1/lesson2.md', event)">Windows en Linux, het verschil in filosofie</a></li>
+                <li><a href="#" onclick="loadLesson('lessons/chapter1/lesson3.md', event)">Wat kant u allemaal met Linux?</a></li>
+                <li><a href="#" onclick="loadLesson('lessons/chapter1/lesson4.md', event)">Linux geeft uw computer een nieuw leven</a></li>
+                <li><a href="#" onclick="loadLesson('lessons/chapter1/lesson5.md', event)">Versies van Linux</a></li>
+            </ul>
+        </details>
+        <details>
+            <summary>Installeer zelf Linux</summary>
+            <ul>
+                <li><a href="#" onclick="loadLesson('lessons/chapter2/lesson0.md', event)">Installeer zelf Linux</a></li>
+                <li><a href="#" onclick="loadLesson('lessons/chapter2/lesson1.md', event)">Koop een usb-stick</a></li>
+                <li><a href="#" onclick="loadLesson('lessons/chapter2/lesson2.md', event)">Download Linux Mint</a></li>
+                <li><a href="#" onclick="loadLesson('lessons/chapter2/lesson3.md', event)">"Brand" Linux Mint op de usb-stick</a></li>
+                <li><a href="#" onclick="loadLesson('lessons/chapter2/lesson4.md', event)">Probeer Linux vanuit de usb-stick</a></li>
+                <li><a href="#" onclick="loadLesson('lessons/chapter2/lesson5.md', event)">Installeer Linux</a></li>
+            </ul>
+        </details>
+        <details>
+            <summary>Gebruik Linux</summary>
+            <ul>
+                <li><a href="#" onclick="loadLesson('lessons/chapter3/lesson0.md', event)">Gebruik Linux</a></li>
+                <li><a href="#" onclick="loadLesson('lessons/chapter3/lesson1.md', event)">De welkomstour</a></li>
+                <li><a href="#" onclick="loadLesson('lessons/chapter3/lesson2.md', event)">Pas uw voorkeuren aan</a></li>
+                <li><a href="#" onclick="loadLesson('lessons/chapter3/lesson3.md', event)">Gebruik het office pakket</a></li>
+                <li><a href="#" onclick="loadLesson('lessons/chapter3/lesson4.md', event)">Ga op het internet</a></li>
+                <li><a href="#" onclick="loadLesson('lessons/chapter3/lesson5.md', event)">Download nieuwe apps in de app store</a></li>
+                <li><a href="#" onclick="loadLesson('lessons/chapter3/lesson6.md', event)">Download nieuwe apps van het internet</a></li>
+            </ul>
+        </details>
+        <details>
+            <summary>Veelgestelde vragen</summary>
+            <ul>
+                <li><a href="#" onclick="loadLesson('lessons/chapter4/lesson4.md', event)">Installatiehulp</a></li>
+            </ul>
+        </details>
+    </div>
 </nav>
 
 <main id="lesson-container">

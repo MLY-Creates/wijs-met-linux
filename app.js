@@ -1,4 +1,7 @@
-async function loadLesson(filePath) {
+async function loadLesson(filePath, event) {
+    if (event) {
+        event.preventDefault();
+    }
     const container = document.getElementById('lesson-container');
 
     try {
@@ -18,5 +21,4 @@ async function loadLesson(filePath) {
             <h2>Er ging iets fout</h2>
             <p>Tux de pinguïn heeft lang en ver gezocht, maar niks gevonden. Weet u zeker dat u met het internet verbonden bent?</p>
             `;
-    }
-}
+    }}

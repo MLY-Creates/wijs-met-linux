@@ -23,12 +23,27 @@ nav {
     padding: 20px;
 }
 
-nav button {
-    display: block;
-    width: 100%; padding: 10px;
-    margin-bottom: 8px;
+nav details summary {
     cursor: pointer;
-    text-align: left;
+    font-weight: bold;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+nav li a {
+    display: block;
+    padding: 5px 0;
+    cursor: pointer;
+    text-decoration: none;
+    color: #007bff;
+}
+
+nav li a:hover {
+    text-decoration: underline;
 }
 
 main {
