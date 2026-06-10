@@ -12,7 +12,7 @@ De installatie bestaat uit 5 stappen, laten we die doorlopen!
 
 2. Selecteer uw toetsenbordindeling. Zo weet Linux hoe uw toetsenbord is ingedeeld. Klik eerst aan de linkerkant op "Dutch". Als uw toetsenbord een windows toets heeft, kiest u rechts "Dutch (US)". Heeft uw een toetsenbord een ⌘ teken, kiest u rechts "Dutch (Machintosh)". Als dat gelukt is klikt u op verder.
 
-3. Verbind met uw wifi (niet verplicht). Verbind met het internet om gelijk updates te krijgen, automatisch met printers te verbinden en om het internet te kunnen browsen als de installatie klaar is. Klik op het wifi netwerk van uw huis, en als er een venster opent, voert u het wachtwoord van uw wifi in. Als u die niet weet, staat het vaak aan de achterkant van uw router. Als dat gelukt is, klikt u op verder.
+3. Verbind met uw wifi (niet verplicht). Verbind met het internet om gelijk updates te krijgen, automatisch met printers te verbinden en om het internet te kunnen browsen als de installatie klaar is. Klik op het wifi-netwerk van uw huis, en als er een venster opent, voert u het wachtwoord van uw wifi in. Als u die niet weet, staat het vaak aan de achterkant van uw router. Als dat gelukt is, klikt u op verder.
 
 4. Multimedia ondersteuning. Om uw computer vele soorten video's af te laten spelen, en om alle websites goed in te laden, huuft u zogenaamde "multimedia codecs" nodig. Vink het vakje naast "Multimedia-codecs installeren" aan en klik op verder.
 

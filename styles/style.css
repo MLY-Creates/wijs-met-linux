@@ -1,12 +1,12 @@
 h1 {
-    font-size: 2.2rem;
+    font-size: 2.3rem;
 }
 
 h2 {
-    font-size: 1.8rem;
+    font-size: 2rem;
 }
 
-p, li, button{
+p, li, button, summary{
     font-size: 1.5rem;
 }
 
@@ -20,10 +20,10 @@ body {
 nav {
     min-width: 280px;
     max-width: 280px;
-    background: #fff;
+    background: #EFEFEF;
     padding: 25px;
-    border-right: 1px solid #adb5bd; /* Higher contrast border */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    border-right: 1px solid #adb5bd;
+    box-shadow: 10px 0px 10px #EFEFEF;
     height: 100vh;
     overflow-y: auto;
 }
@@ -31,7 +31,7 @@ nav {
 nav h2 {
     font-size: 1.2rem;
     font-weight: 600;
-    color: #000; /* Max contrast */
+    color: #000;
     margin: 0 0 20px 10px;
 }
 
@@ -44,13 +44,13 @@ nav details {
 }
 
 nav details:hover {
-    border-color: #adb5bd; /* Higher contrast border */
+    border-color: #adb5bd;
 }
 
 
 nav details summary {
     cursor: pointer;
-    font-weight: 600; /* Bolder for readability */
+    font-weight: 600;
     padding: 12px 15px;
     background: #e3e3e3;
     border-radius: 6px;
@@ -59,7 +59,7 @@ nav details summary {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #000; /* Max contrast */
+    color: #000;
 }
 
 nav details summary:hover {
@@ -67,12 +67,12 @@ nav details summary:hover {
 }
 
 nav details[open] {
-    border-color: #004085; /* High contrast border for open state */
+    border-color: #004488;
 }
 
 nav details[open] summary {
-    background: #004085; /* High contrast bg */
-    color: #fff; /* High contrast text */
+    background: #004488;
+    color: #fff;
     font-weight: 600;
 }
 
@@ -88,20 +88,20 @@ nav li a {
     padding: 10px 15px;
     cursor: pointer;
     text-decoration: none;
-    color: #000; /* Max contrast */
+    color: #000;
     border-radius: 5px;
     transition: background-color 0.2s ease, color 0.2s ease;
 }
 
 nav li a:hover {
     background: #e9ecef;
-    color: #003060; /* High contrast hover text */
+    color: #004488;
     text-decoration: none;
 }
 
 nav li a.active {
-    background: #004488; /* High contrast active bg */
-    color: #fff; /* High contrast active text */
+    background: #004488;
+    color: #fff;
     font-weight: 600;
 }
 

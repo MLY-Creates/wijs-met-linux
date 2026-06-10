@@ -1,8 +1,8 @@
 ## Versies van Linux
 
-Er is niet een versie van Linux, maar het zijn meerdere versies van Linux waaruit je kan kiezen. Elk gemaakt voor een ander doel.
+Er is niet een versie van Linux, maar het zijn meerdere versies van Linux waaruit u kan kiezen. Elk gemaakt voor een ander doel.
 
-Sommige versies zijn heel moeilijk te gebruiken, anderen heel makkelijk. Om te kiezen welke het beste bij jouw past, kan heel moeilijk zijn.
+Sommige versies zijn heel moeilijk te gebruiken, anderen heel makkelijk. Om te kiezen welke het beste bij u past, kan heel moeilijk zijn.
 
 Gelukkig zijn er wel wat populaire versies van Linux die vaak gekozen worden. Bijvoorbeeld Linux Mint, dat een excellente keuze is omdat:
 
