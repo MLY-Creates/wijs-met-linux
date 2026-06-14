@@ -1,6 +1,4 @@
 // Gegevens per computermerk en model.
-// "bios" = toets om de BIOS te openen, "boot" = toets voor het opstartmenu.
-// "note" is optioneel en geeft extra uitleg voor dat model.
 const biosData = {
     "Acer": {
         "Aspire": { bios: "F2", boot: "F12" },
@@ -53,29 +51,28 @@ const biosData = {
         "Surface (alle modellen)": { bios: "—", boot: "—", note: "Een Surface werkt anders: zet hem uit. Houd de knop 'volume omhoog' ingedrukt en druk kort op de aan-knop. Laat 'volume omhoog' pas los als u het menu ziet." }
     },
     "Ander merk / weet ik het niet": {
-        "Weet ik het niet": { bios: "F2", boot: "F12", note: "De juiste toets verschilt per merk. Probeer vlak na het aanzetten herhaaldelijk op F2, F12, Esc, Del of F10 te tikken. Eén daarvan opent meestal het menu." }
+        "Weet ik niet": { bios: "F2", boot: "F12", note: "De juiste toets verschilt per merk. Probeer vlak na het aanzetten herhaaldelijk op F2, F12, Esc, Del of F10 te tikken. Eén daarvan opent meestal het menu." }
     }
 };
 
-// Bouwt de keuzemenu's en koppelt de logica. Wordt aangeroepen door loadLesson
-// zodra de les met het 'bios-tool'-element is geladen.
+function fillSelect(select, names) {
+    select.innerHTML = '<option value="" selected disabled>— Maak een keuze —</option>';
+    for (const name of names) {
+        select.add(new Option(name, name));
+    }
+}
+
 function biosScreen() {
     const tool = document.getElementById('bios-tool');
-    if (!tool) {
-        return;
-    }
+    if (!tool) return;
 
     tool.innerHTML = `
         <div class="bios-selector">
             <label for="bios-brand">1. Kies het merk van uw computer:</label>
-            <select id="bios-brand">
-                <option value="" selected disabled>— Maak een keuze —</option>
-            </select>
+            <select id="bios-brand"></select>
 
             <label for="bios-model" class="bios-hidden">2. Kies uw model:</label>
-            <select id="bios-model" class="bios-hidden">
-                <option value="" selected disabled>— Maak een keuze —</option>
-            </select>
+            <select id="bios-model" class="bios-hidden"></select>
         </div>
         <div id="bios-instructions"></div>
     `;
@@ -85,70 +82,39 @@ function biosScreen() {
     const modelLabel = tool.querySelector('label[for="bios-model"]');
     const instructions = document.getElementById('bios-instructions');
 
-    // Vul het merken-menu.
-    for (const brand of Object.keys(biosData)) {
-        const option = document.createElement('option');
-        option.value = brand;
-        option.textContent = brand;
-        brandSelect.appendChild(option);
-    }
+    fillSelect(brandSelect, Object.keys(biosData));
 
-    // Als er een merk gekozen wordt: vul de modellen en verberg oude uitleg.
+    // Bij een nieuw merk: vul de modellen en wis de oude uitleg.
     brandSelect.addEventListener('change', () => {
-        const brand = brandSelect.value;
         instructions.innerHTML = '';
-
-        modelSelect.innerHTML = '<option value="" selected disabled>— Maak een keuze —</option>';
-        for (const model of Object.keys(biosData[brand])) {
-            const option = document.createElement('option');
-            option.value = model;
-            option.textContent = model;
-            modelSelect.appendChild(option);
-        }
-
+        fillSelect(modelSelect, Object.keys(biosData[brandSelect.value]));
         modelLabel.classList.remove('bios-hidden');
         modelSelect.classList.remove('bios-hidden');
     });
 
-    // Als er een model gekozen wordt: toon de uitleg.
+    // Bij een gekozen model: toon de uitleg.
     modelSelect.addEventListener('change', () => {
-        const brand = brandSelect.value;
-        const model = modelSelect.value;
-        showInstructions(brand, model, instructions);
+        showInstructions(brandSelect.value, modelSelect.value, instructions);
     });
 }
 
-// Toont de stap-voor-stap uitleg voor het gekozen merk en model.
 function showInstructions(brand, model, target) {
     const info = biosData[brand][model];
-    const isSurface = info.bios === "—";
 
-    let steps;
-    if (isSurface) {
-        steps = `
-            <li>Zet uw computer volledig uit.</li>
-            <li>Steek de usb-stick met Linux Mint in de computer.</li>
-            <li>Volg de uitleg hieronder om het opstartmenu te openen.</li>
-            <li>Kies in de lijst uw usb-stick om Linux te starten.</li>
-        `;
-    } else {
-        steps = `
-            <li>Zet uw computer volledig uit.</li>
-            <li>Steek de usb-stick met Linux Mint in de computer.</li>
-            <li>Druk op de aan-knop en tik daarna meteen meerdere keren kort op de <kbd>${info.boot}</kbd>-toets om het opstartmenu te openen.</li>
-            <li>Lukt dat niet? Zet de computer opnieuw uit en probeer dezelfde stap met de <kbd>${info.bios}</kbd>-toets om de BIOS te openen.</li>
-            <li>Kies in de lijst uw usb-stick om Linux te starten.</li>
-        `;
-    }
-
-    const note = info.note
-        ? `<p class="bios-note">💡 ${info.note}</p>`
-        : '';
+    // Surface heeft geen toets; dan vervalt de toets-stap en blijft de note over.
+    const keySteps = info.boot === "—" ? "" : `
+        <li>Druk op de aan-knop en tik daarna meteen meerdere keren kort op de <kbd>${info.boot}</kbd>-toets om het opstartmenu te openen.</li>
+        <li>Lukt dat niet? Zet de computer opnieuw uit en probeer dezelfde stap met de <kbd>${info.bios}</kbd>-toets om de BIOS te openen.</li>`;
 
     target.innerHTML = `
         <h3>${brand} — ${model}</h3>
         <p>Zo start u op vanaf de usb-stick:</p>
-        <ol>${steps}</ol>
-        ${note}
+        <ol>
+            <li>Zet uw computer volledig uit.</li>
+            <li>Steek de usb-stick met Linux Mint in de computer.</li>
+            ${keySteps}
+            <li>Kies in de lijst uw usb-stick om Linux te starten.</li>
+        </ol>
+        ${info.note ? `<p class="bios-note">💡 ${info.note}</p>` : ''}
     `;
 }
