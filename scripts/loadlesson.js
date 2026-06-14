@@ -13,6 +13,12 @@ async function loadLesson(filePath, event) {
         } else {
             const markdownText = await response.text();
             container.innerHTML = marked.parse(markdownText);
+
+            // Sommige lessen bevatten een interactief onderdeel. Start dat op
+            // zodra de inhoud in de pagina staat.
+            if (document.getElementById('bios-tool')) {
+                biosScreen();
+            }
         }
     } catch (error) {
         console.error("Error loading lesson:", error);

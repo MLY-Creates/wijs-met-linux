@@ -118,5 +118,78 @@ blockquote {
     margin: 0 0 0 20px;
 }
 
-#lesson-container code { background: #eee; padding: 2px 4px; border-radius: 4px; }
-#lesson-container pre { background: #222; color: #fff; padding: 15px; border-radius: 8px; overflow-x: auto; }
+#lesson-container code {
+    background: #eee;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+#lesson-container pre { background: #222;
+    color: #fff; padding: 15px;
+    border-radius: 8px;
+    overflow-x: auto;
+}
+
+.bios-selector {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 500px;
+    margin: 20px 0;
+}
+
+.bios-selector label {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.bios-selector select {
+    font-size: 1.4rem;
+    padding: 10px 12px;
+    border: 2px solid #adb5bd;
+    border-radius: 8px;
+    background: #fff;
+    cursor: pointer;
+}
+
+.bios-selector select:focus {
+    outline: none;
+    border-color: #004488;
+}
+
+.bios-hidden {
+    display: none;
+}
+
+#bios-instructions:not(:empty) {
+    margin-top: 20px;
+    padding: 5px 25px 20px 25px;
+    background: #f4f8ff;
+    border-left: #004488 10px solid;
+    border-radius: 8px;
+    max-width: 600px;
+}
+
+#bios-instructions h3 {
+    color: #004488;
+}
+
+#bios-instructions kbd {
+    background: #004488;
+    color: #fff;
+    padding: 2px 10px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-family: monospace;
+}
+
+.bios-note {
+    background: lightyellow;
+    padding: 10px 15px;
+    border-radius: 6px;
+    margin-top: 15px;
+}
+
+footer {
+
+}
