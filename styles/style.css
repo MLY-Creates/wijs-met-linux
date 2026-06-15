@@ -17,6 +17,10 @@ body {
     height: 100vh;
 }
 
+body.comic-sans {
+    font-family: "Comic Neue", "Comic Sans MS", cursive;
+}
+
 nav {
     min-width: 280px;
     max-width: 280px;
@@ -105,6 +109,12 @@ nav li a.active {
     font-weight: 600;
 }
 
+.content-area {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
 main {
     flex-grow: 1;
     overflow-y: auto;
@@ -191,5 +201,8 @@ blockquote {
 }
 
 footer {
-
+    padding: 25px;
+    background: #EFEFEF;
+    text-align: center;
+    border-top: 1px solid #adb5bd;
 }

@@ -1,5 +1,5 @@
-function changeFont() {
-    console.log("hee hee")
-}
+const button = document.createElement("button");
+button.textContent = "Wissel lettertype";
+button.onclick = () => document.body.classList.toggle("comic-sans");
 
-changeFont()
+document.querySelector("footer").appendChild(button);
