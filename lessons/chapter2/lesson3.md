@@ -12,6 +12,6 @@ Het branden zelf is heel simpel, volg de 3 stappen die gegeven zijn:
 
 1. "select image", klik op de groene knop en selecteer het .ISO bestand dat u vanaf de Linux Mint website heeft gedownload. Dit staat vaak in uw downloads folder.
 2. "select drive", hier kiest u de usb-stick waarop u Linux Mint wil zetten.
-3. "flash", als laatste stap brandt u Linux op de USB stick.
+3. "flash", als laatste stap brandt u Linux op de usb-stick door op de knop "flash" te klikken.
 
 Als dat is gelukt, gefeliciteerd! U heeft nu alle stappen doorlopen die nodig zijn vanuit Windows, uw computer gaat binnenkort een heel nieuw leven krijgen.

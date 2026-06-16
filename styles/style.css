@@ -6,7 +6,7 @@ h2 {
     font-size: 2rem;
 }
 
-p, li, button, summary{
+p, li, button, summary {
     font-size: 1.5rem;
 }
 
@@ -15,6 +15,7 @@ body {
     display: flex;
     font-family: system-ui, sans-serif;
     height: 100vh;
+    color: #0F172A;
 }
 
 body.comic-sans {
@@ -24,10 +25,10 @@ body.comic-sans {
 nav {
     min-width: 280px;
     max-width: 280px;
-    background: #EFEFEF;
+    background: #F0F9F6;
     padding: 25px;
-    border-right: 1px solid #adb5bd;
-    box-shadow: 10px 0px 10px #EFEFEF;
+    border-right: 1px solid #B2D8C9;
+    box-shadow: 10px 0 10px rgba(0, 77, 64, 0.05);
     height: 100vh;
     overflow-y: auto;
 }
@@ -35,7 +36,7 @@ nav {
 nav h2 {
     font-size: 1.2rem;
     font-weight: 600;
-    color: #000;
+    color: #004D40;
     margin: 0 0 20px 10px;
 }
 
@@ -48,35 +49,34 @@ nav details {
 }
 
 nav details:hover {
-    border-color: #adb5bd;
+    border-color: #B2D8C9;
 }
-
 
 nav details summary {
     cursor: pointer;
     font-weight: 600;
     padding: 12px 15px;
-    background: #e3e3e3;
+    background: #E2F1EB;
     border-radius: 6px;
     outline: none;
     transition: background-color 0.2s ease;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #000;
+    color: #004D40;
 }
 
 nav details summary:hover {
-    background: #e9ecef;
+    background: #D1EAE1;
 }
 
 nav details[open] {
-    border-color: #004488;
+    border-color: #004D40;
 }
 
 nav details[open] summary {
-    background: #004488;
-    color: #fff;
+    background: #004D40;
+    color: #FFFFFF;
     font-weight: 600;
 }
 
@@ -84,7 +84,7 @@ nav ul {
     list-style-type: none;
     padding: 5px 0 5px 20px;
     margin: 0;
-    background: #fff;
+    background: #FFFFFF;
 }
 
 nav li a {
@@ -92,20 +92,20 @@ nav li a {
     padding: 10px 15px;
     cursor: pointer;
     text-decoration: none;
-    color: #000;
+    color: #0F172A;
     border-radius: 5px;
     transition: background-color 0.2s ease, color 0.2s ease;
 }
 
 nav li a:hover {
-    background: #e9ecef;
-    color: #004488;
+    background: #E2F1EB;
+    color: #004D40;
     text-decoration: none;
 }
 
 nav li a.active {
-    background: #004488;
-    color: #fff;
+    background: #004D40;
+    color: #FFFFFF;
     font-weight: 600;
 }
 
@@ -122,19 +122,23 @@ main {
 }
 
 blockquote {
-    background: lightyellow;
+    background: #F0F9F6;
     padding: 5px 0 5px 30px;
-    border-left: yellow 10px solid;
+    border-left: #004D40 10px solid;
     margin: 0 0 0 20px;
 }
 
 #lesson-container code {
-    background: #eee;
+    background: #E2F1EB;
+    color: #004D40;
     padding: 2px 4px;
     border-radius: 4px;
 }
-#lesson-container pre { background: #222;
-    color: #fff; padding: 15px;
+
+#lesson-container pre {
+    background: #0F172A;
+    color: #E2F1EB;
+    padding: 15px;
     border-radius: 8px;
     overflow-x: auto;
 }
@@ -151,20 +155,22 @@ blockquote {
     font-size: 1.4rem;
     font-weight: 600;
     margin-top: 10px;
+    color: #0F172A;
 }
 
 .bios-selector select {
     font-size: 1.4rem;
     padding: 10px 12px;
-    border: 2px solid #adb5bd;
+    border: 2px solid #B2D8C9;
     border-radius: 8px;
-    background: #fff;
+    background: #FFFFFF;
     cursor: pointer;
+    color: #0F172A;
 }
 
 .bios-selector select:focus {
     outline: none;
-    border-color: #004488;
+    border-color: #004D40;
 }
 
 .bios-hidden {
@@ -174,19 +180,19 @@ blockquote {
 #bios-instructions:not(:empty) {
     margin-top: 20px;
     padding: 5px 25px 20px 25px;
-    background: #f4f8ff;
-    border-left: #004488 10px solid;
+    background: #F0F9F6;
+    border-left: #004D40 10px solid;
     border-radius: 8px;
     max-width: 600px;
 }
 
 #bios-instructions h3 {
-    color: #004488;
+    color: #004D40;
 }
 
 #bios-instructions kbd {
-    background: #004488;
-    color: #fff;
+    background: #004D40;
+    color: #FFFFFF;
     padding: 2px 10px;
     border-radius: 5px;
     font-size: 1.2rem;
@@ -194,15 +200,18 @@ blockquote {
 }
 
 .bios-note {
-    background: lightyellow;
+    background: #FFFBEB;
+    color: #0F172A;
     padding: 10px 15px;
     border-radius: 6px;
     margin-top: 15px;
+    border: 1px solid #FDE68A;
 }
 
 footer {
     padding: 25px;
-    background: #EFEFEF;
+    background: #F0F9F6;
     text-align: center;
-    border-top: 1px solid #adb5bd;
+    border-top: 1px solid #B2D8C9;
+    color: #0F172A;
 }

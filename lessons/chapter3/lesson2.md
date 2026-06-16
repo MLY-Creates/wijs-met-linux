@@ -15,3 +15,5 @@ Als u een touchpad gebruikt, zoals op een laptop, dan klikt u op het kopje "Touc
 **Maak uw computer makkelijker te gebruiken**
 
 Is de tekst moeilijk te lezen, of wilt u extra kunnen inzoomen? Scroll of zoek naar toegankelijkheid, en klik daar op. Vanuit daar kunt u hoog contrast aanzetten om menu's beter leesbaar te maken. Kun't u grote letters aanzetten om tekst beter leesbaar te maken, en kunt u het vergrootglas aanzetten. Om het vergrootglas aan te zetten, klikt u op "vergrotingsfactor inschakelen", als u dan de alt knop op uw toetsenbord ingedrukt houdt en naar boven of onder scrolt, dan zoomt het scherm in en uit.
+
+[//]: # ([TODO] Instructies voor lettertypen aanpassen)

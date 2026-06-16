@@ -1,4 +1,3 @@
-// Gegevens per computermerk en model.
 const biosData = {
     "Acer": {
         "Aspire": { bios: "F2", boot: "F12" },
@@ -84,7 +83,6 @@ function biosScreen() {
 
     fillSelect(brandSelect, Object.keys(biosData));
 
-    // Bij een nieuw merk: vul de modellen en wis de oude uitleg.
     brandSelect.addEventListener('change', () => {
         instructions.innerHTML = '';
         fillSelect(modelSelect, Object.keys(biosData[brandSelect.value]));
@@ -92,7 +90,6 @@ function biosScreen() {
         modelSelect.classList.remove('bios-hidden');
     });
 
-    // Bij een gekozen model: toon de uitleg.
     modelSelect.addEventListener('change', () => {
         showInstructions(brandSelect.value, modelSelect.value, instructions);
     });
@@ -101,7 +98,6 @@ function biosScreen() {
 function showInstructions(brand, model, target) {
     const info = biosData[brand][model];
 
-    // Surface heeft geen toets; dan vervalt de toets-stap en blijft de note over.
     const keySteps = info.boot === "—" ? "" : `
         <li>Druk op de aan-knop en tik daarna meteen meerdere keren kort op de <kbd>${info.boot}</kbd>-toets om het opstartmenu te openen.</li>
         <li>Lukt dat niet? Zet de computer opnieuw uit en probeer dezelfde stap met de <kbd>${info.bios}</kbd>-toets om de BIOS te openen.</li>`;

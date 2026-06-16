@@ -7,6 +7,8 @@
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap">
     <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/biosScreen.js"></script>
+    <script src="scripts/loadlesson.js"></script>
 </head>
 <body>
 
@@ -19,7 +21,7 @@
                 <li><a href="#" onclick="loadLesson('lessons/chapter1/lesson0.md', event)">Begrijp Linux</a></li>
                 <li><a href="#" onclick="loadLesson('lessons/chapter1/lesson1.md', event)">Het Linux verhaal</a></li>
                 <li><a href="#" onclick="loadLesson('lessons/chapter1/lesson2.md', event)">Windows en Linux, het verschil in filosofie</a></li>
-                <li><a href="#" onclick="loadLesson('lessons/chapter1/lesson3.md', event)">Wat kant u allemaal met Linux?</a></li>
+                <li><a href="#" onclick="loadLesson('lessons/chapter1/lesson3.md', event)">Wat kunt u allemaal met Linux?</a></li>
                 <li><a href="#" onclick="loadLesson('lessons/chapter1/lesson4.md', event)">Linux geeft uw computer een nieuw leven</a></li>
                 <li><a href="#" onclick="loadLesson('lessons/chapter1/lesson5.md', event)">Versies van Linux</a></li>
             </ul>
@@ -47,15 +49,9 @@
                 <li><a href="#" onclick="loadLesson('lessons/chapter3/lesson6.md', event)">Download nieuwe apps van het internet</a></li>
             </ul>
         </details>
-        <details>
-            <summary>Veelgestelde vragen</summary>
-            <ul>
-                <li><a href="#" onclick="loadLesson('lessons/chapter4/lesson0.md', event)">Veelgestelde vragen</a></li>
-                <li><a href="#" onclick="loadLesson('lessons/chapter4/lesson1.md', event)">Installatiehulp</a></li>
-                <li><a href="#" onclick="loadLesson('lessons/chapter4/lesson2.md', event)">Gebruikshulp</a></li>
-                <li><a href="#" onclick="loadLesson('lessons/chapter4/lesson3.md', event)">Zelf een vraag? Stuur een mail!</a></li>
-            </ul>
-        </details>
+        <ul>
+            <li><a href="#" onclick="loadLesson('lessons/chapter4/lesson0.md', event)">Veelgestelde vragen</a></li>
+        </ul>
     </div>
 </nav>
 
@@ -63,15 +59,13 @@
     <main id="lesson-container">
         <h1>Wijs in Linux</h1>
         <p>Maak eenvoudig de overstap van Windows naar Linux. Wordt wijs in, installeer eenvoudig en maak gebruik van Linux met gemak. Geef uw computer een heel nieuw leven met Wijs in Linux.</p>
-        <p>Selecteer aan de linkerkant uw gewenste artikel om te beginnen.</p>
+        <p>Selecteer aan de linkerkant uw gewenste hoofdstuk om te beginnen.</p>
     </main>
     <footer>
+        <script src="scripts/changeFont.js"></script>
         <p>&copy; 2026 Wijs in Linux</p>
     </footer>
 </div>
 
-<script src="scripts/biosScreen.js"></script>
-<script src="scripts/loadlesson.js"></script>
-<script src="scripts/changeFont.js"></script>
 </body>
 </html>

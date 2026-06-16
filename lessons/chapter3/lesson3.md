@@ -11,3 +11,5 @@ LibreOffice kunt u openen door op het startmenu te klikken, en te zoeken naar Li
 2. LibreOffice Calc, dit is de equivalent van Excel. Maak, bewerk en bereken door middel van spreadsheets. Klik op een vak om het in te vullen met tekst.
 
 3. LibreOffice Impress, dit is de equivalent van PowerPoint. Maak en presenteer slideshow presentaties. Klik op een dia aan de linkerkant om de indeling te veranderen, klik aan de linkerkant onder een dia om er een toe te voegen.
+
+[//]: # ([TODO] Instructies voor het uitprinten van documenten toevoegen)
