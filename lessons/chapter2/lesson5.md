@@ -18,7 +18,11 @@ De installatie bestaat uit 5 stappen, laten we die doorlopen!
 
 5. Installatietype. U kunt Linux Mint op meerdere manieren op uw computer zetten, waaronder ook "naast" Windows. Dat wordt alleen vaak een rommeltje, en wordt sterk afgeraden. Als u Linux Mint op uw computer zet kunt u het beste voor "wis schijf en installeer Linux Mint" kiezen.
 
-ALs u op verder klikt, krijgt u nog een melding om te vragen of u het zeker weet. Als u alle belangrijke bestanden op een andere plek heeft gezet. Kunt u op "verder" klikken en uw computer een nieuw leven geven.
+6. Tijdzone. Hier kiest u uw tijdzone, klik eerst in de map op Amsterdam, als dat ook in de balk onder de map staat, klikt u op verder.
+
+7. Naam van computer. Hier kiest u uw gebruikersnaam van uw computer. Hier kiest u uw gebruikersnaam van uw computer, voer de velden onder naam en gebruikersnaam in. Ook kiest u hier uw wachtwoord van uw computer, zorg ervoor dat het makkelijk te onthouden is en schrijf het op in een wachtwoordboekje.
+
+Al+s u op verder klikt, krijgt u nog een melding om te vragen of u het zeker weet. Als u alle belangrijke bestanden op een andere plek heeft gezet. Kunt u op "verder" klikken en uw computer een nieuw leven geven.
 
 Daarna voert de installatie zich automatisch uit, pak een koffie of thee en wacht zo'n 5 tot 15 minuten, afhankelijk van de snelheid van uw computer, tot de installatie compleet is. Klik daarna op "opnieuw opstarten" en haal de usb-stick eruit wanneer het gevraagd wordt.
 

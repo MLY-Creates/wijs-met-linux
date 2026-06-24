@@ -1,4 +1,5 @@
 async function loadLesson(filePath, event) {
+    const start = performance.now();
     if (event) {
         event.preventDefault();
     }
@@ -13,6 +14,8 @@ async function loadLesson(filePath, event) {
         } else {
             const markdownText = await response.text();
             container.innerHTML = marked.parse(markdownText);
+            const end = performance.now();
+            console.log(`Time: ${end - start} ms`);
             if (document.getElementById('bios-tool')) {
                 biosScreen();
             }

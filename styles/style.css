@@ -29,7 +29,6 @@ nav {
     padding: 25px;
     border-right: 1px solid #B2D8C9;
     box-shadow: 10px 0 10px rgba(0, 77, 64, 0.05);
-    height: 100vh;
     overflow-y: auto;
 }
 
