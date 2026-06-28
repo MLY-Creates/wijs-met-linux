@@ -43,7 +43,6 @@ nav details {
     margin-bottom: 8px;
     border-radius: 8px;
     overflow: hidden;
-    border: 1px solid transparent;
     transition: border-color 0.3s ease;
 }
 
@@ -56,7 +55,7 @@ nav details summary {
     font-weight: 600;
     padding: 12px 15px;
     background: #E2F1EB;
-    border-radius: 6px;
+    border-radius: 8px;
     outline: none;
     transition: background-color 0.2s ease;
     display: flex;
@@ -67,6 +66,11 @@ nav details summary {
 
 nav details summary:hover {
     background: #D1EAE1;
+}
+
+nav details summary:focus {
+    background: #D1EAE1;
+    border: solid #B2D8C9;
 }
 
 nav details[open] {
@@ -92,7 +96,7 @@ nav li a {
     cursor: pointer;
     text-decoration: none;
     color: #0F172A;
-    border-radius: 5px;
+    border-radius: 8px;
     transition: background-color 0.2s ease, color 0.2s ease;
 }
 
@@ -131,7 +135,7 @@ blockquote {
     background: #E2F1EB;
     color: #004D40;
     padding: 2px 4px;
-    border-radius: 4px;
+    border-radius: 8px;
 }
 
 #lesson-container pre {
@@ -193,7 +197,7 @@ blockquote {
     background: #004D40;
     color: #FFFFFF;
     padding: 2px 10px;
-    border-radius: 5px;
+    border-radius: 8px;
     font-size: 1.2rem;
     font-family: monospace;
 }
