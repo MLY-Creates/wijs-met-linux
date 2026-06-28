@@ -1,3 +1,9 @@
+document.addEventListener('DOMContentLoaded', () => {
+    document.querySelectorAll('#nav-links a[data-lesson]').forEach((link) => {
+        link.addEventListener('click', (event) => loadLesson(link.dataset.lesson, event));
+    });
+});
+
 async function loadLesson(filePath, event) {
     const start = performance.now();
     if (event) {
