@@ -1,4 +1,4 @@
-## Pas uw voorkeuren aan
+## 2. Pas uw instellingen aan
 
 Om uw computer volledig eigen te laten voelen, of om het gebruik van uw computer eenvoudiger te maken, kunt u uw instellingen aanpasssen in het instellingenmenu. Dit kunt u doen door linksonder op het startmenu te klikken, en dan via de zoekbalk naar systeeminstellingen te zoeken. Klik daarna op systeeminstellingen om dit te openen. Hieronder is een lijst met vaak aangepaste instellingen:
 

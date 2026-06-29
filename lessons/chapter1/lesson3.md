@@ -1,4 +1,4 @@
-## Wat kunt u allemaal met Linux?
+## 3. Wat kunt u allemaal met Linux?
 
 Met Linux kunt u alles wat u met Windows ook kan, zoals:
 

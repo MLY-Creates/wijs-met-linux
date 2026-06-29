@@ -1,4 +1,4 @@
-## Het Linux verhaal
+## 1. Het Linux verhaal
 
 Tijdens de jaren '80 en '90 had Microsoft een harde grip op de markt van computersoftware. In 1991 draaide 90% van de computers op Microsoft DOS of op de toen nieuwe Microsoft Windows. DOS en Windows zijn wat ze "closed source" noemen, waarbij niemand naast Microsoft echt weet hoe de code erachter werkt.
 

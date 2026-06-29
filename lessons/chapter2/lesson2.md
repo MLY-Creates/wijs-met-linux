@@ -1,4 +1,4 @@
-## Download Linux Mint
+## 2. Download Linux Mint
 
 Om Linux mint op een usb-stick te branden, moet u het eerst downloaden.
 

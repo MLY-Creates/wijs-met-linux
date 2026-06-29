@@ -1,4 +1,4 @@
-## Gebruik het office pakket
+## 3. Gebruik het office pakket
 
 Linux Mint heeft LibreOffice ingebouwd, en is volledig gratis in gebruik. Er zijn dus geen dure licenties nodig. 
 

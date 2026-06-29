@@ -1,4 +1,4 @@
-## Versies van Linux
+## 5. Versies van Linux
 
 Er is niet een versie van Linux, maar het zijn meerdere versies van Linux waaruit u kan kiezen. Elk gemaakt voor een ander doel.
 

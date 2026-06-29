@@ -1,4 +1,4 @@
-## Installeer Linux 
+## 5. Installeer Linux 
 
 Als u zeker bent dat u Linux op uw computer wil zetten, klik dan linksboven op het DVD icoontje waaronder "Install Linux Mint" staat. Wacht daarna eventjes tot het venster met de installatie tevoorschijn komt.
 

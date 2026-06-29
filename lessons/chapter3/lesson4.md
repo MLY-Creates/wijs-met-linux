@@ -1,4 +1,4 @@
-## Ga op het internet
+## 4. Ga op het internet
 
 Browse het internet met Firefox, de ingebouwde browser van Linux Mint dat modern, snel en veilig is.
 

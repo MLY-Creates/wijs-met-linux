@@ -1,4 +1,4 @@
-## "Brand" Linux Mint op de usb-stick
+## 3. "Brand" Linux Mint op de usb-stick
 
 Om Linux op uw computer te zetten, moet u eerst het net gedownloadde bestand branden op een usb-stick. Dit kunt u doen via software dat gemaakt is om bestanden op een usb-stick te branden, net zoals u dat vroeger met DVD's kon doen.
 

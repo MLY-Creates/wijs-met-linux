@@ -1,4 +1,4 @@
-## De welkomstour
+## 1. De welkomstour
 
 Als u Linux mint voor de eerste keer opstart, dan ziet u een welkomsgids. Laten we die samen doorlopen door op "vooruit met die geit!" te klikken.
 
@@ -6,7 +6,7 @@ Als u Linux mint voor de eerste keer opstart, dan ziet u een welkomsgids. Laten 
 
 Kies de kleuren van uw omgeving, daarbij kunt u uit stijl, een donker, licht of gecombineerd uiterlijk en een themakleur keizen. Als u klaar bent kunt u het venster van de thema's weer sluiten duur op het kruisje rechtsboven het venster te klikken.
 
-**Momentopname van het systeem (kan handig zijn)**
+**Backups van het systeem (kan handig zijn)**
 
 Wilt u zeker weten dat u backups heeft als er iets fout gaat? Klik dan op momentopname van het systeem.
 
@@ -20,7 +20,7 @@ Heeft u aparte computeronderdelen, zoals een grafische kaart? Klik dan op stuurp
 
 Hier kunt u uw systeem updaten net zoals bij Windows updates. Als u hier op klikt zie je hoogstwaarschijnlijk dat hier een update voor beschikbaar is, klik op de knop "actualisering uitvoeren" om die uit te voeren. Mochten er in de toekomst nog updates zijn, dan zult u daar een melding van ontvangen. Het wordt sterk aangeraden om updates uit te voeren voor de veiligheid van uw computer.
 
-**Systeeminstellingen**
+**Instellingen**
 
 Hier kunt u de instellingen van uw computer aanpassen, daarover meer in het volgende hoofdstuk.
 

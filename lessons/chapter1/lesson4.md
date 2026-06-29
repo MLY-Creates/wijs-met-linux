@@ -1,4 +1,4 @@
-## De nadelen van Linux
+## 4. De nadelen van Linux
 
 Doordat het zo open is, heeft Linux ook nadelen ten opzichte van Windows. Zoals:
 

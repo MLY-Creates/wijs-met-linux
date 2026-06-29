@@ -1,4 +1,4 @@
-## Waarom Linux op uw computer?
+## 2. Waarom Linux op uw computer?
 
 Doordat Linux open is en niet afhankelijk is van een grote coorperatie, wordt het door gebruikers zelf gemaakt en onderhouden. Dit brengt meerdere voordelen met zich mee, zoals:
 

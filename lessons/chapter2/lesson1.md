@@ -1,4 +1,4 @@
-## Koop een usb-stick
+## 1. Koop een usb-stick
 
 Om Linux Mint te installeren, heeft u eerst een usb-stick nodig waaruit u de installatie kan doen. U kunt er een gebruiken die u al hebt, of u kunt er een kopen bij een groot aantal winkels zoals de Action of de Kruidvat.
 
