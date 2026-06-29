@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +7,14 @@
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap">
     <link rel="stylesheet" href="styles/style.css">
+    <script>
+        // Apply the saved (or system) theme before paint to avoid a flash.
+        const savedTheme = localStorage.getItem("theme");
+        const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+        if (savedTheme === "dark" || (savedTheme === null && prefersDark)) {
+            document.documentElement.classList.add("dark-mode");
+        }
+    </script>
     <script src="scripts/biosScreen.js"></script>
     <script src="scripts/loadlesson.js"></script>
 </head>
@@ -63,6 +71,7 @@
     </main>
     <footer>
         <script src="scripts/changeFont.js"></script>
+        <script src="scripts/darkMode.js"></script>
         <p>&copy; 2026 Wijs in Linux</p>
     </footer>
 </div>
