@@ -1,3 +1,5 @@
+import {micromark} from 'https://cdn.jsdelivr.net/npm/micromark/+esm';
+
 document.addEventListener('DOMContentLoaded', () => {
     document.querySelectorAll('#nav-links a[data-lesson]').forEach((link) => {
         link.addEventListener('click', (event) => loadLesson(link.dataset.lesson, event));
@@ -15,7 +17,7 @@ async function loadLesson(filePath, event) {
         if (!response.ok) {
             throw new Error(`Lesson not found: ${response.statusText}`);
         }
-        container.innerHTML = marked.parse(await response.text());
+        container.innerHTML = micromark(await response.text());
         if (document.getElementById('bios-tool')) {
             biosScreen();
         }
