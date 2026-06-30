@@ -7,8 +7,8 @@ Wijs in Linux is een educationele website dat richt op het aanleren van Linux vo
 Dit project bestaat uit meerdere onderdelen:
 
 1. index.html, hier staan de componenten van de website op.
-2. loadlesson.js, hier worden de markdown bestanden omgezet naar renderable HTML.
-3. styles, hierin staan de vanilla CSS stylesheets
+2. scripts, hierin staan alle JavaScript bestanden.
+3. styles, hierin staan de vanilla CSS stylesheets.
 4. lessons, hierin staan de lessen in markdown formaat, de lessen zijn onderverdeeld in 4 chapters.
 
 **index.html**
@@ -18,7 +18,6 @@ In dit bestand staat de algemene layout van de website. In de nav staan de links
 In de main staat de lesson container, dit wordt aangepast door loadlesson.js. Er staat default HTML in als welkomsbericht, dat wordt overschreven door de markdown files door loadlesson.js
 
 In de footer staan de twee functies changefont.JS en darkmode.JS
-
 
 **scripts**
 
@@ -38,7 +37,7 @@ Schakelt tussen lichte en donkere thema's, hierbij worden de variablen van style
 
 **biosScreen.js**
 
-Dit is exclusief voor chapter 2 lesson 4. Hierin worden de elementen van de dropdowns een voor een vertoont, als de huidige dropdown geselecteerd is. Bovenaan staat de data in een array, die data wordt uitgelezen 
+Dit is exclusief voor chapter 2 lesson 4. Hierin worden de elementen van de dropdowns een voor een vertoont, als de huidige dropdown geselecteerd is. Bovenaan staat de data in een array, die data wordt uitgelezen en vertoont via DOM elementen in te vullen met de opgenomen data. Sommige laptops hebben extra data mee, dat wordt daaronder vertoont via info.note.
 
 **styles**
 
@@ -56,4 +55,4 @@ Chapter 3: Gebruik Linux
 
 Chapter 4: Veelgestelde vragen
 
-Elke chapter bevat de individuele bestanden in volgorde van de lessen. Die worden opgeroepen vanuit loadlesson.js.
+Elke chapter bevat de individuele bestanden als markdown bestanden in volgorde van de lessen. Die worden opgeroepen vanuit loadlesson.js.

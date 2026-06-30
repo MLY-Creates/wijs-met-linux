@@ -12,7 +12,7 @@ function addDarkModeButton() {
         localStorage.setItem("theme", isDark ? "dark" : "light");
     };
 
-    document.querySelector("footer").appendChild(darkModeButton);
+    document.querySelector("#footerButtons").appendChild(darkModeButton);
 }
 
 if (document.readyState === "loading") {
