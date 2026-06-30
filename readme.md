@@ -17,11 +17,28 @@ In dit bestand staat de algemene layout van de website. In de nav staan de links
 
 In de main staat de lesson container, dit wordt aangepast door loadlesson.js. Er staat default HTML in als welkomsbericht, dat wordt overschreven door de markdown files door loadlesson.js
 
-In de footer staat [TODO]
+In de footer staan de twee functies changefont.JS en darkmode.JS
+
+
+**scripts**
+
+Hierin staan de onderstaande JavaScript bestanden
 
 **loadlesson.js**
 
 Hieruit wordt vanuit de loadlesson functie de markdown bestanden omgezet naar renderable HTML via marked. Dit wordt in de lesson container van index.html geplaatst.
+
+**changefont.js**
+
+Zet de font van de website om naar open sans of sans serif. Dit wordt gedaan via een queryselector waarop het HTML bestand aangepast wordt.
+
+**darkMode.js**
+
+Schakelt tussen lichte en donkere thema's, hierbij worden de variablen van style.css getoggled naar dark mode kleuren..
+
+**biosScreen.js**
+
+Dit is exclusief voor chapter 2 lesson 4. Hierin worden de elementen van de dropdowns een voor een vertoont, als de huidige dropdown geselecteerd is. Bovenaan staat de data in een array, die data wordt uitgelezen 
 
 **styles**
 
