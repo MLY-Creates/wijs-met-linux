@@ -10,6 +10,6 @@ Dat doet u via het opstartmenu of de BIOS van uw computer. Welke toets u daarvoo
 
 Zodra u uw usb-stick uit de lijst kiest, start Linux Mint op. 
 
-Daarna drukt u op de ENTER toets van uw toetsenbord bij het selectiemenu "start Linux Mint Cinamon".
+Daarna drukt u op de ENTER toets van uw toetsenbord bij het menu waar met zwart op witte letters "start Linux Mint Cinamon" op staat.
 
 Wacht een momentje, en u komt op het startscherm van Linux Mint. U kunt nu vrij rondkijken en alles uitproberen. Bevalt het? Dan installeert u in het volgende hoofdstuk Linux op uw computer.

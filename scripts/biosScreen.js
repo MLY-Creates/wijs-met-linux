@@ -42,12 +42,8 @@ const biosData = {
         "Satellite": { bios: "F2", boot: "F12" },
         "Anders / weet ik het niet": { bios: "F2", boot: "F12" }
     },
-    "Medion": {
-        "Akoya": { bios: "Del", boot: "F11" },
-        "Anders / weet ik het niet": { bios: "Del", boot: "F11" }
-    },
     "Microsoft Surface": {
-        "Surface (alle modellen)": { bios: "—", boot: "—", note: "Een Surface werkt anders: zet hem uit. Houd de knop 'volume omhoog' ingedrukt en druk kort op de aan-knop. Laat 'volume omhoog' pas los als u het menu ziet." }
+        "Surface (alle modellen)": { bios: "—", boot: "—", note: "Een Surface werkt anders dan andere computers. Zet hem uit, houd de knop volume omhoog ingedrukt en druk kort op de aan knop. Laat volume omhoog pas los als u het opstartmenu ziet." }
     },
     "Ander merk / weet ik het niet": {
         "Weet ik niet": { bios: "F2", boot: "F12", note: "De juiste toets verschilt per merk. Probeer vlak na het aanzetten herhaaldelijk op F2, F12, Esc, Del of F10 te tikken. Eén daarvan opent meestal het menu." }

@@ -29,15 +29,15 @@ Hieruit wordt vanuit de loadlesson functie de markdown bestanden omgezet naar re
 
 **changefont.js**
 
-Zet de font van de website om naar open sans of sans serif. Dit wordt gedaan via een queryselector waarop het HTML bestand aangepast wordt.
+Zet de font van de website om naar open sans of sans serif. Dit wordt gedaan via een queryselector waarop het HTML bestand aangepast wordt. Dit wordt onderaan index.html geplaatst
 
 **darkMode.js**
 
-Schakelt tussen lichte en donkere thema's, hierbij worden de variablen van style.css getoggled naar dark mode kleuren..
+Schakelt tussen lichte en donkere thema's, hierbij worden de variablen van style.css getoggled naar dark mode kleuren. Dit wordt onderaan index.html geplaatst.
 
 **biosScreen.js**
 
-Dit is exclusief voor chapter 2 lesson 4. Hierin worden de elementen van de dropdowns een voor een vertoont, als de huidige dropdown geselecteerd is. Bovenaan staat de data in een array, die data wordt uitgelezen en vertoont via DOM elementen in te vullen met de opgenomen data. Sommige laptops hebben extra data mee, dat wordt daaronder vertoont via info.note.
+Dit is exclusief voor chapter 2 lesson 4. Hierin worden de elementen van de dropdowns een voor een vertoont, als de huidige dropdown geselecteerd is. Bovenaan staat de data in een array, die data wordt uitgelezen en vertoont via DOM elementen in te vullen met de opgenomen data. Sommige laptops hebben extra data mee, dat wordt daaronder vertoont via info.note. Dit wordt gedaan op de div met het ID "bios-tool"
 
 **styles**
 
