@@ -5,8 +5,9 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 async function loadLesson(filePath, event) {
+    if (event) event.preventDefault();
+    window.currentLessonPath = filePath;
     const start = performance.now();
-    event.preventDefault();
     const container = document.getElementById('lesson-container');
     container.innerHTML = '<p>Aan het laden...</p>';
 
