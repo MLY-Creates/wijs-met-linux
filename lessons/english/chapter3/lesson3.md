@@ -1,15 +1,16 @@
-## 3. Gebruik het office pakket
+## 3. Use the office suite
 
-Linux Mint heeft LibreOffice ingebouwd, en is volledig gratis in gebruik. Er zijn dus geen dure licenties nodig. 
+Linux Mint has LibreOffice built-in, and is completely free to use. So no expensive licenses are needed.
 
-LibreOffice is makkelijk in gebruik, en grotendeels hetzelfde te gebruiken als Microsoft Office, waarbij je instellingen zoals lettertypen op de bovenste balk aan kan passen. De documenten zelf staan op het midden van uw scherm.
+LibreOffice is easy to use, and largely the same as Microsoft Office, where you can adjust settings such as fonts on the top bar. The documents themselves are in the middle of your screen.
 
-LibreOffice kunt u openen door op het startmenu te klikken, en te zoeken naar LibreOffice. Daarbij heet u onder andere de volgende keuze aan programma's die ingebouwd zijn:
+You can open LibreOffice by clicking on the start menu, and searching for LibreOffice. You will then have the following choice of built-in programs:
+1. LibreOffice Writer, this is the equivalent of Word. Write, edit, and print text documents just like you do in Word.
+2. LibreOffice Calc, this is the equivalent of Excel. Create, edit, and calculate using spreadsheets. Click on a cell to fill it with text.
+3. LibreOffice Impress, this is the equivalent of PowerPoint. Create and present slideshow presentations. Click on a slide on the left to change its layout, click on the left below a slide to add one.
 
-1. LibreOffice Writer, dit is de equivalent van Word. Schrijf, bewerk en print tekstdocumenten zoals u dat op Word ook doet.
+1. LibreOffice Writer, this is the equivalent of Word. Write, edit, and print text documents just like you do in Word.
 
-2. LibreOffice Calc, dit is de equivalent van Excel. Maak, bewerk en bereken door middel van spreadsheets. Klik op een vak om het in te vullen met tekst.
+2. LibreOffice Calc, this is the equivalent of Excel. Create, edit, and calculate using spreadsheets. Click on a cell to fill it with text.
 
-3. LibreOffice Impress, dit is de equivalent van PowerPoint. Maak en presenteer slideshow presentaties. Klik op een dia aan de linkerkant om de indeling te veranderen, klik aan de linkerkant onder een dia om er een toe te voegen.
-
-[//]: # ([TODO] Instructies voor het uitprinten van documenten toevoegen)
+3. LibreOffice Impress, this is the equivalent of PowerPoint. Create and present slideshow presentations. Click on a slide on the left to change its layout, click on the left below a slide to add one.

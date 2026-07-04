@@ -1,19 +1,19 @@
-# veelgestelde vragen
+# Frequently asked questions
 
-Nog vragen over de installatie of het gebruik van Linux? In dit hoofdstuk kunt u de veelgestelde vragen zien.
+Do you have any questions about the installation or use of Linux? In this chapter you can see the frequently asked questions.
 
-**Waarom geen AI?**
+**Why no AI?**
 
-AI maakt vaak fouten, en maakt die vol zelfvertrouwen. Doordat AI vaak halve waarheden vertelt, kunt u het niet goed vertrouwen voor een installatie.
+AI often makes mistakes, and makes them with confidence. Because AI often tells half-truths, you can't really trust it for an installation.
 
-**Waarom staat er geen deel in over apps downloaden van het internet?**
+**Why no section about downloading apps from the internet?**
 
-Apps downloaden vanuit het internet zonder te weten wie de ontwikkelaar ervan is is riskanter dan apps vanuit de officiele winkel downloaden. Daardoor wordt aangeraden om eerst zelfstandig onderzoek te doen of de app wel te vertrouwen is voordat u het download. 
+Downloading apps from the internet without knowing who the developer is is riskier than downloading apps from the official store. Therefore, it is recommended to first do your own research on whether the app is trustworthy before you download it. 
 
-**Wat is de BIOS precies?**
+**What exactly is the BIOS?**
 
-De BIOS is een systeem van uw computer dat opstart, voordat Windows of Linux dat doen. Het checkt of alles werkt, en zo ja, dan verwijst het door naar Windows of Linux. De voornaamste redenen om de BIOS te gebruiken zijn om van Windows naar Linux of terug te wisselen, of om te kijken of het apparaat correct werkt.
+The BIOS is a system of your computer that starts up before Windows or Linux does. It checks if everything is working, and if so, it refers to Windows or Linux. The main reasons to use the BIOS are to switch between Windows and Linux or back, or to check if the device is working correctly.
 
-**Hoe kan ik na de installatie mijn taal veranderen?**
+**How can I change my language after installation?**
 
-Klik linksonder op het startmenu. en zoek daar naar "instellingen", klik daarna op het icoontje met "systeeminstellingen". Klik daarna rechtsboven op de zoekbalk en zoek naar "talen". Op het menu van talen, klikt u op de huidige taal en selecteert u Nederlands. Als laatste klikt u op "taal toepasssen".
+Click on the start menu at the bottom left, and search for "settings", then click on the icon with "system settings". Then click on the search bar at the top right and search for "languages". In the languages menu, click on the current language and select English. Finally, click on "apply language".

@@ -37,5 +37,11 @@ window.dutchNav = [
         lessons: [
             { path: "lessons/dutch/chapter4/lesson0.md", title: "Veelgestelde vragen" }
         ]
+    },
+    {
+        title: null,
+        lessons: [
+            { path: "lessons/dutch/chapter4/lesson1.md", title: "Help mee aan Wijs in Linux!" }
+        ]
     }
 ];

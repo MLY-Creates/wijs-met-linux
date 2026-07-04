@@ -1,7 +1,7 @@
-## 1. Het Linux verhaal
+## 1. The Linux story
 
-Tijdens de jaren '80 en '90 had Microsoft een harde grip op de markt van computersoftware. In 1991 draaide 90% van de computers op Microsoft DOS of op de toen nieuwe Microsoft Windows. DOS en Windows zijn wat ze "closed source" noemen, waarbij niemand naast Microsoft echt weet hoe de code erachter werkt.
+During the 80s and 90s, Microsoft had a tight grip on the computer software market. In 1991, 90% of computers ran on Microsoft DOS or the then-new Microsoft Windows. DOS and Windows are what they call "closed source", where no one outside of Microsoft truly knows how the code behind it works.
 
-Dat moest anders, en op 17 september 1991 bracht Linus Torvalds de eerste versie van Linux op de markt. Linux is niet alleen vat werkt, en met genoeg technische kennis, zelf code toe kan voegen om Linux verder te helpen. Omdat het "open source" is, kan iedereen zien hoe het werkt, en met genoeg technische kennis, zelf code toe kan voegen om Linux verder te helpen.
+That needed to change, and on September 17, 1991, Linus Torvalds released the first version of Linux. Linux is not only vat werkt, en met genoeg technische kennis, zelf code toe kan voegen om Linux verder te helpen. Omdat het "open source" is, kan iedereen zien hoe het werkt, en met genoeg technische kennis, zelf code toe kan voegen om Linux verder te helpen.
 
 Dat "closed en open source" is wat het verschil in filosofie tussen Windows en Linux brengt. Omdat Microsoft volledige controle over Windows heeft, ondernemen ze acties die vaak anti-consument zijn, om meer winst te maken. Met Linux kan dat niet, omdat het van de gebruikers, voor de gebruikers is. En er dus geen grote coorperatie achterzit.

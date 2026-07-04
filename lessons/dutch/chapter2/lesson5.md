@@ -6,7 +6,7 @@ Als u zeker bent dat u Linux op uw computer wil zetten, klik dan linksboven op h
 >
 > Installatie van Linux verwijdert alle bestanden die op uw Windows computer staan. Zorg ervoor dat belangrijke foto's, video's en andere bestanden opgeslagen zijn op een andere plek, zoals een usb-stick of de cload.
 
-De installatie bestaat uit 5 stappen, laten we die doorlopen!
+De installatie bestaat uit 7 stappen, laten we die doorlopen!
 
 1. Selecteer uw taal. Aan de linkerkant van het paneel ziet u een lijst met talen. Scroll naar beneden en klik op Nederlands. Als de taal in het Nederlands staat, kunt u op verder klikken.
 
@@ -22,7 +22,7 @@ De installatie bestaat uit 5 stappen, laten we die doorlopen!
 
 7. Naam van computer. Hier kiest u uw gebruikersnaam van uw computer. Hier kiest u uw gebruikersnaam van uw computer, voer de velden onder naam en gebruikersnaam in. Ook kiest u hier uw wachtwoord van uw computer, zorg ervoor dat het makkelijk te onthouden is en schrijf het op in een wachtwoordboekje.
 
-Al+s u op verder klikt, krijgt u nog een melding om te vragen of u het zeker weet. Als u alle belangrijke bestanden op een andere plek heeft gezet. Kunt u op "verder" klikken en uw computer een nieuw leven geven.
+Als u op verder klikt, krijgt u nog een melding om te vragen of u het zeker weet. Als u alle belangrijke bestanden op een andere plek heeft gezet. Kunt u op "verder" klikken en uw computer een nieuw leven geven.
 
 Daarna voert de installatie zich automatisch uit, pak een koffie of thee en wacht zo'n 5 tot 15 minuten, afhankelijk van de snelheid van uw computer, tot de installatie compleet is. Klik daarna op "opnieuw opstarten" en haal de usb-stick eruit wanneer het gevraagd wordt.
 

@@ -1,9 +1,9 @@
-## 3. Wat kunt u allemaal met Linux?
+## 3. What can you do with Linux?
 
-Met Linux kunt u alles wat u met Windows ook kan, zoals:
+With Linux you can do everything you can do with Windows, such as:
 
-- Op het internet gaan, en alle websites bezoeken.
-- De LibreOffice suite altijd gratis gebruiken, hiermee kunt u documenten bewerken, spreadsheets maken en powerpoints maken net zoals in Microsoft Office. Ook kunt u deze documenten uitprinten.
-- Spellen spelen, ook Linux heeft spellen zoals Solitaire on Mohjang.
-- E-mailen, ook met Linux kunt u e-mails ontvangen en versturen.
+- Go on the internet, and visit all websites.
+- Always use the LibreOffice suite for free, with which you can edit documents, create spreadsheets and create powerpoints just like in Microsoft Office. You can also print these documents.
+- Play games, Linux also has games such as Solitaire and Mohjang.
+- Email, also with Linux you can receive and send emails.
 - Videobellen, ook met Linux kunt u met uw contacten videobellen.

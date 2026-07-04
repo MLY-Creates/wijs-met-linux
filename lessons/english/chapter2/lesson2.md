@@ -1,13 +1,13 @@
 ## 2. Download Linux Mint
 
-Om Linux mint op een usb-stick te branden, moet u het eerst downloaden.
+To burn Linux Mint to a USB stick, you must first download it.
 
-Bezoek de officiele Linux Mint website door te Googlen naar Linux Mint, of door op de volgende link te klikken: https://linuxmint.com/
+Visit the official Linux Mint website by Googling for Linux Mint, or by clicking on the following link: https://linuxmint.com/
 
-Klik daarna op de witte knop waar "download" op staat.
+Then click on the white button that says "download".
     
-Daarna wordt u naar een pagina gebracht met verschillende edities, hierbij is cinamon de enige relevante editie aangezien het alles heeft wat u nodig heeft om uw computer goed te kunnen gebruiken. Klik op de zwarte knop met "download" er op.
+You will then be taken to a page with different editions. Cinnamon is the only relevant edition as it has everything you need to use your computer properly. Click on the black button with "download" on it.
 
-Op de volgende pagina staan download "mirrors", dat zijn locaties waarvan je kan downloaden. Scroll naar beneden tot de lijst met "mirrors" en klik op de link bij tweede optie waar "linux mint" staat. Vanaf daar download u Linux Mint gegarandeerd veilig, aangezien het vie de officiele website gaat.
+The next page contains download "mirrors", which are locations from which you can download. Scroll down to the list of "mirrors" and click on the link next to the second option that says "linux mint". From there you are guaranteed to download Linux Mint safely, as it is through the official website.
 
-Als u rechtsboven in uw browser een download bezig ziet, is het gelukt! Wacht tot de download volledig is afgerond voordat u met de volgende stap verder gaat.
+If you see a download in progress in the top right of your browser, you have succeeded! Wait for the download to complete before proceeding to the next step.

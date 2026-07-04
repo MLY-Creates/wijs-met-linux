@@ -1,3 +1,3 @@
-# Gebruik Linux
+# Use Linux
 
-Nadat u uw computer opnieuw heeft opgestart, bent u in Linux Mint! Hier ziet in het midden van uw scherm de welkomstour, waarover het volgende hoofdstuk zal gaan, sluit het dus nog niet.
+After restarting your computer, you will be in Linux Mint! Here you will see the welcome tour in the middle of your screen, which the next chapter will cover, so don't close it yet.

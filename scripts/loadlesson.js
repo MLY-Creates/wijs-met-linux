@@ -16,7 +16,9 @@ async function loadLesson(filePath, event) {
         if (!response.ok) {
             throw new Error(`Lesson not found: ${response.statusText}`);
         }
-        container.innerHTML = marked.parse(await response.text());
+        const markdownText = await response.text();
+        window.currentLessonMarkdown = markdownText;
+        container.innerHTML = marked.parse(markdownText);
         if (document.getElementById('bios-tool')) {
             biosScreen();
         }

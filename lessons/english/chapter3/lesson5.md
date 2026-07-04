@@ -1,12 +1,12 @@
-## 5. Download nieuwe apps in de app store
+## 5. Download new apps in the app store
 
-linux Mint heeft een ingebouwde app store, dat te vergelijken is met de App Store of Play Store dat op uw mobiele telefoon staat. Vanuit de app store kunt u apps downloaden om te gebruiken.
+Linux Mint has a built-in app store, comparable to the App Store or Play Store on your mobile phone. From the app store, you can download apps to use.
 
-Open linksonder het startmenu, en zoek naar "softwarebeheer", daarin kunt u apps downloaden en verwijderen.
+Open the start menu at the bottom left, and search for "softwarebeheer" (software manager), where you can download and remove apps.
 
-Als de app store geladen is, kunt u rechtsboven op de balk met "zoeken" klikken om te zoeken naar apps. Hieronder een lijst van voorbeelden:
+When the app store is loaded, you can click on the bar with "search" at the top right to search for apps. Below is a list of examples:
 
- - Spotify, stream muziek in hoge kwaliteit met Spotify.
- - Whatsie, gebruik Whatsapp om met uw contacten te appen via uw computer.
- - VLC media speler, kijk en luister naar elk type bestand met VLC media speler.
- - Weather, bekijk het weer en de weersvoorspelling in uw regio.
+ - Spotify, stream music in high quality with Spotify.
+ - Whatsie, use Whatsapp to chat with your contacts via your computer.
+ - VLC media player, watch and listen to any type of file with VLC media player.
+ - Weather, check the weather and weather forecast in your region.

@@ -1,17 +1,17 @@
-## 4. Ga op het internet
+## 4. Browse the internet
 
-Browse het internet met Firefox, de ingebouwde browser van Linux Mint dat modern, snel en veilig is.
+Browse the internet with Firefox, the built-in browser of Linux Mint that is modern, fast and safe.
 
-**Verbind met het internet**
+**Connect to the internet**
 
-Tijdens de installatie van Linux nog niet met het internet verbonden? Geen probleem! U kunt dat nog steeds doen door helemaal rechtsonder van de balk op "internet" te klikken. Als u daar op klikt krijgt u een lijst van wifi-netwerken te zien.
+Not connected to the internet during the installation of Linux? No problem! You can still do it by clicking on "internet" in the bar at the bottom right. If you click there, you will see a list of wifi networks.
 
-Klik op het wifi-netwerk van uw huis, en als er een venster opent, voert u het wachtwoord van uw wifi in. Als u die niet weet, staat het vaak aan de achterkant van uw router. Als dat gelukt is, klikt u op verder.
+Click on the wifi network of your house, and if a window opens, enter your wifi password. If you don't know it, it's often on the back of your router. If that's successful, click on next.
 
-**Browse het internet**
+**Browse the internet**
 
-De FireFox webbrowser kunt u openen door op het startmenu te klikken, en daarna te zoeken naar FireFox. Klik daarop als het gevonden is.
+You can open the FireFox web browser by clicking on the start menu, and then searching for FireFox. Click on it when it's found.
 
-FireFox werkt hetzelfde als vele andere webbrowsers. Bovenaan staat een zoekbalk waarmee u via Google kan zoeken op het internet.
+FireFox works the same as many other web browsers. At the top is a search bar with which you can search the internet via Google.
 
-Klik op de zoekbalk en typ een onderwerp doet u wil zoeken, een vraag of een directe link (zoals https://youtube.com/) in. Druk daarna op de "enter" toets van uw toetsenbord om te zoeken.
+Click on the search bar and type a topic you want to search for, a question, or a direct link (such as https://youtube.com/). Then press the "enter" key on your keyboard to search.

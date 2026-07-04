@@ -1,12 +1,12 @@
-## 4. Probeer Linux vanuit de usb-stick
+## 4. Try Linux from the usb-stick
 
-U kunt Linux Mint eerst gewoon uitproberen vanaf de usb-stick, zonder dat er iets op uw computer wordt gezet. Daarvoor moet u uw computer wel eerst van de usb-stick opstarten in plaats van Windows.
+You can try Linux Mint first from the usb stick, without anything being put on your computer. To do this, you must first boot your computer from the usb stick instead of Windows.
 
-Dat doet u via het opstartmenu of de BIOS van uw computer. Welke toets u daarvoor moet indrukken verschilt per merk en model. Kies hieronder uw merk en model, dan tonen we u precies wat u moet doen.
+You do this via the boot menu or the BIOS of your computer. Which key you need to press for this differs per brand and model. Choose your brand and model below, and we will show you exactly what to do.
 
 <div id="bios-tool"></div>
 
-**En daarna?**
+**And then?**
 
 Zodra u uw usb-stick uit de lijst kiest, start Linux Mint op. 
 

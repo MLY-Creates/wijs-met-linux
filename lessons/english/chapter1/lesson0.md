@@ -1,3 +1,3 @@
-# Begrijp Linux
+# Understand Linux
 
-Welkom, dit is Wijs in Linux. Uw computer krijgt binnenkort een nieuw leven. Maar voordat u Linux kan gebruiken, is het handig om het eerst te begrijpen. Daar gaat dit hoofdstuk over.
+Welcome to Wijs in Linux (Wise in Linux). Your computer is about to get a new life. But before you can use Linux, it's helpful to understand it first. That's what this chapter is about.

@@ -1,7 +1,7 @@
-# Installeer zelf Linux
+# Install Linux yourself
 
-Linux is gelukkig makkelijk op uw computer te installeren, volg de stappen goed en de installatie is vaak binnen een halfuurtje gedaan. Heb je nog vragne of loopt u ergens tegenaan? Kijk dan bij het hoofdstuk veelgestelde vragen.
+Linux is fortunately easy to install on your computer, follow the steps carefully and the installation is often done within half an hour. Do you have any questions or are you running into something? Then check the FAQ chapter.
 
-> **Let op**
+> **Please note**
 >
-> Installatie van Linux verwijdert alle bestanden die op uw Windows computer staan. Zorg ervoor dat belangrijke foto's, video's en andere bestanden opgeslagen zijn op een andere plek, zoals een usb-stick of de cload.
+> Installing Linux removes all files on your Windows computer. Make sure important photos, videos, and other files are saved elsewhere, such as a USB stick or the cloud.

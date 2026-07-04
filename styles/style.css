@@ -40,7 +40,10 @@ h2 {
     font-size: 2rem;
 }
 
-p, li, button, summary {
+p,
+li,
+button,
+summary {
     font-size: 1.5rem;
 }
 

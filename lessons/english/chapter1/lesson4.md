@@ -1,7 +1,7 @@
-## 4. De nadelen van Linux
+## 4. The disadvantages of Linux
 
-Doordat het zo open is, heeft Linux ook nadelen ten opzichte van Windows. Zoals:
+Because it is so open, Linux also has disadvantages compared to Windows. Such as:
 
-1. Laptops en computers worden vaak niet met Linux meegeleverd, waardoor u zelf de installatie moet doen.
-2. Linux kan niet elk programma draaien, als u bijvoorbeeld veel Adobe producten gebruikt, kunt u beter op Windows blijven.
+1. Laptops and computers are often not delivered with Linux, so you have to do the installation yourself.
+2. Linux cannot run every program, if you use many Adobe products, for example, you better stick with Windows.
 3. Er zijn meer locaties om hulp te vragen met Windows, doordat Linux minder populair is wordt er minder persoonlijke hulp aangeboden.

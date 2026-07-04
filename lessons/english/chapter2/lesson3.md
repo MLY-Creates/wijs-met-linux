@@ -1,17 +1,17 @@
-## 3. "Brand" Linux Mint op de usb-stick
+## 3. "Etch" Linux Mint to a usb-stick
 
-Om Linux op uw computer te zetten, moet u eerst het net gedownloadde bestand branden op een usb-stick. Dit kunt u doen via software dat gemaakt is om bestanden op een usb-stick te branden, net zoals u dat vroeger met DVD's kon doen.
+To put Linux on your computer, you first need to burn the downloaded file to a USB stick. You can do this using software made to burn files to a USB stick, just like you used to do with DVDs.
 
-Om dat te doen heeft u een programma nodig dat een usb-stick kan branden. Daar zijn meerdere opties voor, waaronder BalenaEtcher, dat wij gebruiken voor het gebruiksgemak.
+To do this, you need a program that can burn a USB stick. There are several options, including BalenaEtcher, which we use for its ease of use.
 
-U kunt via uw webbrowser googlen naar "balena etcher", of op de volgende link klikken om naar de website te gaan: https://etcher.balena.io/
+You can Google "balena etcher" in your web browser, or click on the following link to go to the website: https://etcher.balena.io/
 
-Vanaf daar, klik op de groene "download etcher" knop, en daarna op de blauwe download know dat naast "windows" staat. Als u dat doet gaat Balena Etcher downloaden en kunt u Linux op de usb-stick branden, wacht tot de download gefinisht is en klik op het gedownloadde bestand om het op te starten.
+From there, click the green "download etcher" button, and then the blue download button next to "windows". If you do that, Balena Etcher will download and you can burn Linux to the USB stick, wait for the download to finish and click on the downloaded file to start it.
 
-Het branden zelf is heel simpel, volg de 3 stappen die gegeven zijn:
+Burning itself is very simple, follow the 3 steps given:
 
-1. "select image", klik op de groene knop en selecteer het .ISO bestand dat u vanaf de Linux Mint website heeft gedownload. Dit staat vaak in uw downloads folder.
-2. "select drive", hier kiest u de usb-stick waarop u Linux Mint wil zetten.
-3. "flash", als laatste stap brandt u Linux op de usb-stick door op de knop "flash" te klikken.
+1. "select image", click the green button and select the .ISO file you downloaded from the Linux Mint website. This is often in your downloads folder.
+2. "select drive", here you choose the USB stick you want to put Linux Mint on.
+3. "flash", as a final step, you burn Linux to the USB stick by clicking the "flash" button.
 
 Als dat is gelukt, gefeliciteerd! U heeft nu alle stappen doorlopen die nodig zijn vanuit Windows, uw computer gaat binnenkort een heel nieuw leven krijgen.

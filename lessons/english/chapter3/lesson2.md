@@ -1,19 +1,15 @@
-## 2. Pas uw instellingen aan
+## 2. Adjust your settings
 
-Om uw computer volledig eigen te laten voelen, of om het gebruik van uw computer eenvoudiger te maken, kunt u uw instellingen aanpasssen in het instellingenmenu. Dit kunt u doen door linksonder op het startmenu te klikken, en dan via de zoekbalk naar systeeminstellingen te zoeken. Klik daarna op systeeminstellingen om dit te openen. Hieronder is een lijst met vaak aangepaste instellingen:
+To make your computer feel completely your own, or to make using your computer easier, you can adjust your settings in the settings menu. You can do this by clicking on the start menu in the bottom left, and then searching for system settings via the search bar. Then click on system settings to open it. Below is a list of commonly adjusted settings:
 
-**Verander uw achtergrond**
+In the settings menu, scroll or search for wallpapers under the appearance section. If you double-click there, you will be at the screen to adjust your wallpaper. On the left, you can choose between default wallpapers, additional built-in wallpapers, or wallpapers that are in your computer's pictures folder. Double-click on a wallpaper to set it.
 
-In het instellingenmenu, scroll of zoek naar achtergronden bij het kopje uiterlijk. Als u daar dubbel op klikt bent u bij het scherm om uw achtergrond aan te passen. Links kunt u kiezen tussen standaardachtergronden, extra ingebouwde achtergronden of achtergronden die in de afbeeldingen folder van uw computer staat. Dubbel klik op een achtergrond om deze in te stellen.
+**Change the speed and size of your mouse cursor**
 
-**Verander de snelheid en grootte van uw muiscursor**
+Is your mouse too fast or too slow? Scroll or search for "Mouse and Touchpad". If you open that, you can adjust the size and speed of the mouse cursor using the sliders at the bottom.
 
-Gaat uw muis te snel of te langzaam? Scroll of zoek dan naar "Muis en Trackpad". Als u dat opent kunt u via de sliders aan de onderkant de grootte en snelheid van de muiscursor aanpassen.
+If you use a touchpad, such as on a laptop, click on the "Touchpad" section, from there you can adjust the speed using the slider at the bottom.
 
-Als u een touchpad gebruikt, zoals op een laptop, dan klikt u op het kopje "Touchpad", vanaf daar kunt u de slider onderaan verschuiven om de snelheid aan te passen.
+**Make your computer easier to use**
 
-**Maak uw computer makkelijker te gebruiken**
-
-Is de tekst moeilijk te lezen, of wilt u extra kunnen inzoomen? Scroll of zoek naar toegankelijkheid, en klik daar op. Vanuit daar kunt u hoog contrast aanzetten om menu's beter leesbaar te maken. Kun't u grote letters aanzetten om tekst beter leesbaar te maken, en kunt u het vergrootglas aanzetten. Om het vergrootglas aan te zetten, klikt u op "vergrotingsfactor inschakelen", als u dan de alt knop op uw toetsenbord ingedrukt houdt en naar boven of onder scrolt, dan zoomt het scherm in en uit.
-
-[//]: # ([TODO] Instructies voor lettertypen aanpassen)
+Is the text hard to read, or would you like to be able to zoom in extra? Scroll or search for "Accessibility", and click on it. From there you can turn on high contrast to make menus more readable. You can turn on large letters to make text more readable, and you can turn on the magnifying glass. To turn on the magnifying glass, click on "enable zoom factor", then if you hold the alt key on your keyboard down and scroll up or down, the screen will zoom in and out.

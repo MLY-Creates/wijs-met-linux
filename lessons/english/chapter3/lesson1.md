@@ -1,33 +1,33 @@
-## 1. De welkomstour
+## 1. The welcome tour
 
-Als u Linux mint voor de eerste keer opstart, dan ziet u een welkomsgids. Laten we die samen doorlopen door op "vooruit met die geit!" te klikken.
+If you start Linux mint for the first time, you will see a welcome guide. Let's go through it together by clicking "let's get started!".
 
-**Kleuren van de werkomgeving**
+**Colors of the desktop environment**
 
-Kies de kleuren van uw omgeving, daarbij kunt u uit stijl, een donker, licht of gecombineerd uiterlijk en een themakleur keizen. Als u klaar bent kunt u het venster van de thema's weer sluiten duur op het kruisje rechtsboven het venster te klikken.
+Choose the colors of your desktop environment, you can choose from style, a dark, light or combined appearance and a theme color. When you are done, you can close the themes window by clicking the cross in the top right corner of the window.
 
-**Backups van het systeem (kan handig zijn)**
+**System snapshots (can be useful)**
 
-Wilt u zeker weten dat u backups heeft als er iets fout gaat? Klik dan op momentopname van het systeem.
+Would you like to be sure you have backups if something goes wrong? Then click on "system snapshot".
 
-Daarbij staat een bolletje met "RSYNC" al geselecteerd, dat kunt u zo laten. klik op volgende en selecteer uw schijf. Daarna kunt u kiezen hoe vaak en hoe veel backups u wilt, de dagelijkse backups met 5 zijn voor de meeste mensen voldoende, als u vaker of meer backups wil, kunt u dat in dit scherm aanpassen. Hierna klikt u op voltooien.
+There is a ball with "RSYNC" already selected, you can leave it like that. click on next and select your disk. Then you can choose how often and how many backups you want, the daily backups with 5 are sufficient for most people, if you want more or more backups, you can adjust that in this screen. Then click continue.
 
-**Stuurprogrammabeheer (vaak niet nodig)**
+**Driver manager (often not needed)**
 
-Heeft u aparte computeronderdelen, zoals een grafische kaart? Klik dan op stuurprogrammabeheer om daar de programma's voor te installeren. De installatie kan verschillen per stuurprogramma en kan dus niet volledig behandeld worden. Volg de instructies die geleverd worden per stuurprogramma goed.
+Do you have separate computer components, such as a graphics card? Then click on driver manager to install the programs for it. The installation may differ per driver and therefore cannot be fully covered. Follow the instructions provided per driver carefully.
 
-**Bijwerkbeheer**
+**Update manager**
 
-Hier kunt u uw systeem updaten net zoals bij Windows updates. Als u hier op klikt zie je hoogstwaarschijnlijk dat hier een update voor beschikbaar is, klik op de knop "actualisering uitvoeren" om die uit te voeren. Mochten er in de toekomst nog updates zijn, dan zult u daar een melding van ontvangen. Het wordt sterk aangeraden om updates uit te voeren voor de veiligheid van uw computer.
+Here you can update your system just like with Windows updates. If you click here, you will most likely see that an update is available, click the "perform update" button to run it. If there are any updates in the future, you will receive a notification. It is strongly recommended to perform updates for the security of your computer.
 
-**Instellingen**
+**Settings**
 
-Hier kunt u de instellingen van uw computer aanpassen, daarover meer in het volgende hoofdstuk.
+Here you can adjust the settings of your computer, more about that in the next chapter.
 
-**Programmabeheer**
+**Software manager**
 
-Hier kunt u apps downloaden en beheren, meer hierover in het hoofdstuk "download nieuwe apps in de app store".
+Here you can download and manage apps, more about that in the chapter "download new apps in the app store".
 
-**Firewall (bijna nooit nodig)**
+**Firewall (almost never needed)**
 
-Hierin kunt u een firewall inschakelen, waarbij je internetverkeer van en naar uw computer kan inzien en beheren. Dit is voor het overgrote deel van de gebruikers niet van toepassing.
+Here you can enable a firewall, which allows you to view and manage internet traffic to and from your computer. This does not apply to the vast majority of users.
