@@ -6,11 +6,11 @@ Op dit moment is deze website alleen in het Nederlands en Engels beschikbaar. Zo
 
 > **Let op**
 >
-> Om mee te helpen aan de vertalingen is minstens een basisniveau aan computervaardigheden wenselijk.
+> Om mee te helpen aan de vertalingen is minstens een basisniveau aan computervaardigheden nodig.
 
 1. Download de ZIP bestanden uit de lijst van talen die nog vertaald moeten worden uit de lijst hieronder.
-2. Pak de bestanden uit. Dit kunt u doen vanuit uw bestanden.
-3. Vertaal de teksten in de juiste bestanden. Doe dit in de bestanden die eindigen op "md". Vermijd om code te vertalen. 
+2. Pak de bestanden uit. Dit kunt u doen vanuit uw verkenner.
+3. Vertaal de teksten in de juiste bestanden. Doe dit in de bestanden die eindigen op "md". Vermijd om code te vertalen. Dit kunt u eenvoudig doen via de ingebouwde notepad app op uw computer.
 4. Stuur de vertalingen door via de onderstaande lijst, door op de bijbehorende knop "Mail uw vertaling" te klikken. 
 5. Als de vertalingen zijn goedgekeurd, wordt u aan de lijst van vertalers toegevoegd. Uw impact maakt echt het verschil!
 
