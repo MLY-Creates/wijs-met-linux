@@ -4,10 +4,10 @@ There is not one version of Linux, but several versions of Linux to choose from.
 
 Some versions are very difficult to use, others very easy. Choosing which one suits you best can be very difficult.
 
-Gelukkig zijn er wel wat populaire versies van Linux die vaak gekozen worden. Bijvoorbeeld Linux Mint, dat een excellente keuze is omdat:
+Fortunately, there are some popular versions of Linux that are often chosen. For example Linux Mint, which is an excellent choice because:
 
-* Linux Mint is makkelijk in gebruik, en lijkt heel erg op Windows
-* Linux Mint is makkelijk om te installeren
-* Linux Mint is snel, ook op oude computers
-* Linux Mint is stabiel, en crasht zelden
-* Linux mint is veilig, er zijn weinig virussen voor Linux
+* Linux Mint is easy to use, and looks a lot like Windows
+* Linux Mint is easy to install
+* Linux Mint is fast, even on old computers
+* Linux Mint is stable, and rarely crashes
+* Linux mint is safe, there are few viruses for Linux

@@ -6,6 +6,7 @@ if (savedTheme === "dark" || (savedTheme === null && prefersDark)) {
 
 function addDarkModeButton() {
     const darkModeButton = document.createElement("button");
+    darkModeButton.id = "toggle-dark-mode-button";
     darkModeButton.textContent = "Wissel donkere modus";
     darkModeButton.onclick = () => {
         const isDark = document.documentElement.classList.toggle("dark-mode");

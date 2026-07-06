@@ -44,8 +44,29 @@ function renderNav(lang) {
     });
 }
 
+const footerTranslations = {
+    dutch: {
+        toggleFont: "Wissel lettertype",
+        toggleDarkMode: "Wissel donkere modus"
+    },
+    english: {
+        toggleFont: "Toggle font",
+        toggleDarkMode: "Toggle dark mode"
+    }
+};
+
 function changeLanguage(lang) {
     renderNav(lang);
+
+    const fontButton = document.getElementById("toggle-font-button");
+    if (fontButton) {
+        fontButton.textContent = footerTranslations[lang].toggleFont;
+    }
+    const darkModeButton = document.getElementById("toggle-dark-mode-button");
+    if (darkModeButton) {
+        darkModeButton.textContent = footerTranslations[lang].toggleDarkMode;
+    }
+
     if (window.currentLessonPath) {
         const parts = window.currentLessonPath.split('/');
         if (parts[0] === 'lessons' || parts[0] === '.' && parts[1] === 'lessons') {
