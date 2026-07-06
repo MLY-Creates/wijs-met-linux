@@ -8,8 +8,8 @@ Op dit moment is deze website alleen in het Nederlands en Engels beschikbaar. Zo
 >
 > Om mee te helpen aan de vertalingen is minstens een basisniveau aan computervaardigheden wenselijk.
 
-1. Download de ZIP bestanden uit de lijst van talen die nog vertaald moeten worden uit de lijst hieronder.
-2. Pak de bestanden uit. Dit kunt u doen vanuit uw bestanden.
-3. 
+1. Ga naar https://github.com/MLY-Creates/wijs-met-linux en klik op de groene knop om de code met de talen te downloaden.
+2. Pak de bestanden uit. Ga daarna naar de map met de naam lessons, kopieer de map "dutch"
 
+Daarna kunt u een van 2 dingen doen:
 
