@@ -1,58 +1,99 @@
 # Wijs in Linux #
 
-Wijs in Linux is een educationele website dat richt op het aanleren van Linux voor senioren in een eenvoudig te begrijpen manier. Het wordt onderverdeeld in 3 delen: Leer, installeer en gebruik Linux. Het is aan te raden om dit project niet los te gebruiken, maar als hulpmiddel bij persoonlijke begeleiding.
+Wijs in Linux is een educatieve website die zich richt op het aanleren van Linux aan senioren op een eenvoudig te begrijpen manier. Het project biedt ondersteuning voor zowel Nederlands als Engels en is onderverdeeld in verschillende hoofdstukken. Het is aan te raden om dit project niet los te gebruiken, maar als hulpmiddel bij persoonlijke begeleiding.
 
 **Technische werking**
 
 Dit project bestaat uit meerdere onderdelen:
 
-1. index.html, hier staan de componenten van de website op.
-2. scripts, hierin staan alle JavaScript bestanden.
-3. styles, hierin staan de vanilla CSS stylesheets.
-4. lessons, hierin staan de lessen in markdown formaat, de lessen zijn onderverdeeld in 4 chapters.
+1. [index.html](file:///home/mly/PhpstormProjects/wijs-met-linux/index.html): De basisstructuur van de website.
+2. [scripts/](file:///home/mly/PhpstormProjects/wijs-met-linux/scripts): Bevat de JavaScript-bestanden voor interactiviteit, navigatie, lettertype- en themabeheer, en taalkeuze.
+3. [styles/](file:///home/mly/PhpstormProjects/wijs-met-linux/styles): Bevat de CSS-stylesheets voor de vormgeving.
+4. [lessons/](file:///home/mly/PhpstormProjects/wijs-met-linux/lessons): Bevat de lessen in Markdown-formaat, onderverdeeld per taal en hoofdstuk.
 
-**index.html**
+---
 
-In dit bestand staat de algemene layout van de website. In de nav staan de links naar de verschillende markdown files onderverdeeld in 3 details tags. Onclick wordt er gerefereerd naar de bestandslocatie van de markdown files, mocht die bestandslocatie veranderen moet dat ook hierzo aangepast worden.
+### Bestandsstructuur
 
-In de main staat de lesson container, dit wordt aangepast door loadlesson.js. Er staat default HTML in als welkomsbericht, dat wordt overschreven door de markdown files door loadlesson.js
+Hieronder is een overzicht van de belangrijkste bestanden en mappen in het project:
 
-In de footer staan de twee functies changefont.JS en darkmode.JS
+- [index.html](file:///home/mly/PhpstormProjects/wijs-met-linux/index.html) - De startpagina van de applicatie.
+- [readme.md](file:///home/mly/PhpstormProjects/wijs-met-linux/readme.md) - Dit document met uitleg over het project.
+- [styles/style.css](file:///home/mly/PhpstormProjects/wijs-met-linux/styles/style.css) - Het CSS-bestand voor de styling (inclusief Dark Mode en Comic Neue-lettertype).
+- Mappen structuur voor `scripts/`:
+  - [scripts/selectLanguage.js](file:///home/mly/PhpstormProjects/wijs-met-linux/scripts/selectLanguage.js) - Regelt de taalkeuze (Nederlands/Engels), vertalingen van knoppen en het laden van de navigatie.
+  - [scripts/loadlesson.js](file:///home/mly/PhpstormProjects/wijs-met-linux/scripts/loadlesson.js) - Laadt de Markdown-lesbestanden in de applicatie met behulp van Marked.js.
+  - [scripts/changeFont.js](file:///home/mly/PhpstormProjects/wijs-met-linux/scripts/changeFont.js) - Wisselt het lettertype van de website naar Comic Neue.
+  - [scripts/darkMode.js](file:///home/mly/PhpstormProjects/wijs-met-linux/scripts/darkMode.js) - Schakelt tussen het lichte en donkere thema en slaat dit op in `localStorage`.
+  - [scripts/biosScreen.js](file:///home/mly/PhpstormProjects/wijs-met-linux/scripts/biosScreen.js) - Regelt het interactieve BIOS-scherm voor hoofdstuk 2, les 4.
+  - [scripts/languagescripts/dutch.js](file:///home/mly/PhpstormProjects/wijs-met-linux/scripts/languagescripts/dutch.js) - Bevat de hoofdstukken- en lessenlijst voor de Nederlandse versie.
+  - [scripts/languagescripts/english.js](file:///home/mly/PhpstormProjects/wijs-met-linux/scripts/languagescripts/english.js) - Bevat de hoofdstukken- en lessenlijst voor de Engelse versie.
+- Mappen structuur voor `lessons/`:
+  - `lessons/dutch/` - Nederlandse lessen, onderverdeeld in `chapter1` t/m `chapter4`.
+  - `lessons/english/` - Engelse lessen, onderverdeeld in `chapter1` t/m `chapter4`.
 
-**scripts**
+---
 
-Hierin staan de onderstaande JavaScript bestanden
+### index.html
 
-**loadlesson.js**
+In dit bestand staat de algemene layout van de website.
+- In de `<nav>` staat de container `<div id="nav-links">`. Deze wordt dynamisch gevuld door [selectLanguage.js](file:///home/mly/PhpstormProjects/wijs-met-linux/scripts/selectLanguage.js) op basis van de geselecteerde taal en de bijbehorende navigatiestructuur.
+- In de `<main>` staat het `<div id="lesson-container">` element. Dit element wordt overschreven door de inhoud van de geselecteerde Markdown-bestanden via [loadlesson.js](file:///home/mly/PhpstormProjects/wijs-met-linux/scripts/loadlesson.js).
+- In de `<footer>` bevindt zich de container `<div id="footerButtons">` waarin de taalkeuze (select-box), de knop voor het lettertype en de knop voor donkere modus dynamisch worden geladen en beheerd.
 
-Hieruit wordt vanuit de loadlesson functie de markdown bestanden omgezet naar renderable HTML via marked. Dit wordt in de lesson container van index.html geplaatst.
+---
 
-**changefont.js**
+### scripts
 
-Zet de font van de website om naar open sans of sans serif. Dit wordt gedaan via een queryselector waarop het HTML bestand aangepast wordt. Dit wordt onderaan index.html geplaatst
+Hierin staan de JavaScript-bestanden:
 
-**darkMode.js**
+#### [selectLanguage.js](file:///home/mly/PhpstormProjects/wijs-met-linux/scripts/selectLanguage.js)
+Regelt de meertaligheid van de website:
+- Maakt een taal-dropdown (`#language-select`) aan in de footer.
+- Vult dynamisch de navigatie (`#nav-links`) met de juiste hoofdstukken en lessen.
+- Vertaalt de knopteksten in de footer bij het wisselen van taal.
+- Laadt automatisch de juiste vertaling van de actieve les of start met de introductieles van de gekozen taal.
 
-Schakelt tussen lichte en donkere thema's, hierbij worden de variablen van style.css getoggled naar dark mode kleuren. Dit wordt onderaan index.html geplaatst.
+#### [languagescripts/](file:///home/mly/PhpstormProjects/wijs-met-linux/scripts/languagescripts)
+Bevat de configuratiebestanden voor de navigatiemenu's:
+- `dutch.js` declareert `window.dutchNav` met alle Nederlandse lespaden en titels.
+- `english.js` declareert `window.englishNav` met alle Engelse lespaden en titels.
 
-**biosScreen.js**
+#### [loadlesson.js](file:///home/mly/PhpstormProjects/wijs-met-linux/scripts/loadlesson.js)
+- Laadt asynchroon het Markdown-bestand van de geselecteerde les op basis van het meegegeven pad.
+- Zet de Markdown-tekst om naar HTML via de `marked` bibliotheek en plaatst dit in de `#lesson-container`.
+- Controleert of het element `#bios-tool` aanwezig is in de ingeladen les en start in dat geval de `biosScreen()` functie.
 
-Dit is exclusief voor chapter 2 lesson 4. Hierin worden de elementen van de dropdowns een voor een vertoont, als de huidige dropdown geselecteerd is. Bovenaan staat de data in een array, die data wordt uitgelezen en vertoont via DOM elementen in te vullen met de opgenomen data. Sommige laptops hebben extra data mee, dat wordt daaronder vertoont via info.note. Dit wordt gedaan op de div met het ID "bios-tool"
+#### [changeFont.js](file:///home/mly/PhpstormProjects/wijs-met-linux/scripts/changeFont.js)
+- Maakt de knop `#toggle-font-button` aan en voegt deze toe aan de footer.
+- Schakelt bij een klik de CSS-klasse `comic-sans` op de `<body>` aan of uit. Dit wisselt het lettertype naar Comic Neue om de leesbaarheid te verhogen.
 
-**styles**
+#### [darkMode.js](file:///home/mly/PhpstormProjects/wijs-met-linux/scripts/darkMode.js)
+- Controleert bij het laden of de gebruiker al een voorkeur heeft opgeslagen in `localStorage` of dat het besturingssysteem donkere modus verkiest, en past dit toe op de `<html>`-tag.
+- Maakt de knop `#toggle-dark-mode-button` aan en voegt deze toe aan de footer.
+- Schakelt de klasse `dark-mode` op de `<html>` aan of uit en slaat de voorkeur op in de `localStorage`.
 
-Hierin staat de stylesheet van Wijs In Linux, waaruit index.html refereert. Hierin staat de nav bovenaan en de footer onderaan.
+#### [biosScreen.js](file:///home/mly/PhpstormProjects/wijs-met-linux/scripts/biosScreen.js)
+- Exclusief gebruikt in Hoofdstuk 2, Les 4 om een interactief BIOS-selectiescherm te simuleren.
+- Leest een array van laptopdata in en toont stapsgewijs dropdown-keuzes.
+- Toont specifieke instructies en eventuele extra opmerkingen via DOM-manipulatie op de div `#bios-tool`.
 
-**lessons**
+---
 
-Deze directory bevat alle lessen in markdown formaat. De lessen zijn onderverdeeld in 4 chapters:
+### styles
 
-Chapter 1: Begrijp Linux
+Het bestand [style.css](file:///home/mly/PhpstormProjects/wijs-met-linux/styles/style.css) regelt de vormgeving van de website.
+- Het gebruikt CSS-variabelen (`:root`) om kleuren te definiëren, waardoor het wisselen naar donkere modus eenvoudig geregeld wordt onder `html.dark-mode`.
+- Bevat de opmaak voor de navigatiebalk aan de linkerkant (inclusief hover- en focus-states voor de `<details>` en koppelingen).
+- Bevat specifieke opmaak voor de BIOS-simulator en de weergave van code en toetsenbordknoppen (`<kbd>`).
 
-Chapter 2: Installeer zelf Linux
+---
 
-Chapter 3: Gebruik Linux
+### lessons
 
-Chapter 4: Veelgestelde vragen
+Deze directory bevat alle lessen als Markdown-bestanden, georganiseerd per taal (`dutch/` en `english/`) en verdeeld in vier hoofdstukken (`chapter1/` t/m `chapter4/`):
 
-Elke chapter bevat de individuele bestanden als markdown bestanden in volgorde van de lessen. Die worden opgeroepen vanuit loadlesson.js.
+1. **Chapter 1: Begrijp Linux / Understand Linux** (Lessen 0 t/m 5)
+2. **Chapter 2: Installeer zelf Linux / Install Linux yourself** (Lessen 0 t/m 5, inclusief de BIOS-interactiviteit in les 4)
+3. **Chapter 3: Gebruik Linux / Use Linux** (Lessen 0 t/m 5)
+4. **Chapter 4: Veelgestelde vragen & Meewerken** (Veelgestelde vragen en informatie over hoe mee te helpen aan het project)
