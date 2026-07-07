@@ -37,11 +37,5 @@ window.englishNav = [
         lessons: [
             { path: "lessons/english/chapter4/lesson0.md", title: "Frequently Asked Questions" }
         ]
-    },
-    {
-        title: null,
-        lessons: [
-            { path: "lessons/english/chapter4/lesson1.md", title: "Help with Wijs in Linux!" }
-        ]
     }
 ];
