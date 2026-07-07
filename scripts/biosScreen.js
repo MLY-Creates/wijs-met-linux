@@ -107,6 +107,6 @@ function showInstructions(brand, model, target) {
             ${keySteps}
             <li>Kies in de lijst uw usb-stick om Linux te starten.</li>
         </ol>
-        ${info.note ? `<p class="bios-note">💡 ${info.note}</p>` : ''}
+        ${info.note ? `<p class="bios-note">${info.note}</p>` : ''}
     `;
 }
